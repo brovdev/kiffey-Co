@@ -1,0 +1,1620 @@
+<!DOCTYPE html>
+<html lang="egy" class="">
+
+<!-- Mirrored from sandbox.bookingcore.co/egy/space/lily-dale-village by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 13 Jan 2025 22:10:54 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="W54J0KMOQPX6D0a8URMkHYCmBXQgHewn2jGw2b7d">
+    
+    <link rel="icon" type="image/png" href="../../uploads/demo/general/favicon.png" />
+    
+    <title>LILY DALE VILLAGE - Booking Core</title>
+    <meta name="description" content="Libero sem vitae sed donec conubia integer nisi integer rhoncus imperdiet orci odio libero est integer a integer tincidunt sollicitudin blandit fusce nibh leo v..."/>
+    
+    <meta property="og:url" content="lily-dale-village.html"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="LILY DALE VILLAGE"/>
+    <meta property="og:description" content="Libero sem vitae sed donec conubia integer nisi integer rhoncus imperdiet orci odio libero est integer a integer tincidunt sollicitudin blandit fusce nibh leo v..."/>
+    <meta property="og:image" content="../../uploads/demo/space/space-10.jpg"/>
+            <meta property="og:site_name" content="Booking Core" />
+        
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="LILY DALE VILLAGE">
+    <meta name="twitter:description" content="Libero sem vitae sed donec conubia integer nisi integer rhoncus imperdiet orci odio libero est integer a integer tincidunt sollicitudin blandit fusce nibh leo v...">
+    <meta name="twitter:image" content="../../uploads/demo/space/space-10.jpg">
+    <link rel="canonical" href="lily-dale-village.html"/>
+    <link href="../../libs/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../../libs/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="../../libs/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="../../libs/icofont/icofont.min.css" rel="stylesheet">
+    <link href="../../libs/select2/css/select2.min.css" rel="stylesheet">
+    <link href="../../dist/frontend/css/notification.css" rel="newest stylesheet">
+    <link href="../../dist/frontend/css/app96fd.css?_ver=3.4.0" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="../../libs/daterange/daterangepicker.css" >
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="http://fonts.gstatic.com/">
+    <link rel='stylesheet' id='google-font-css-css'  href='https://fonts.googleapis.com/css?family=Poppins%3A300%2C400%2C500%2C600&amp;display=swap' type='text/css' media='all' />
+
+    
+    
+    
+    <script>
+    var bookingCore = {
+        url:'https://sandbox.bookingcore.co/egy',
+        url_root:'https://sandbox.bookingcore.co',
+        admin_url:'https://sandbox.bookingcore.co/admin',
+        booking_decimals:0,
+        thousand_separator:'.',
+        decimal_separator:',',
+        currency_position:'left',
+        currency_symbol:'$',
+        currency_rate:'1',
+        date_format:'MM/DD/YYYY',
+        map_provider:'gmap',
+        map_gmap_key:'',
+        map_options:{
+            map_lat_default:'',
+            map_lng_default:'',
+            map_clustering: true,
+            map_fit_bounds: true,
+        },
+        routes:{
+            login:'https://sandbox.bookingcore.co/egy/login',
+            register:'https://sandbox.bookingcore.co/egy/register',
+            checkout:'https://sandbox.bookingcore.co/egy/booking/doCheckout'
+        },
+        currentUser: 0,
+        isAdmin : 0,
+        rtl: true,
+        markAsRead:'https://sandbox.bookingcore.co/egy/notify/markAsRead',
+        markAllAsRead:'https://sandbox.bookingcore.co/egy/notify/markAllAsRead',
+        loadNotify : 'https://sandbox.bookingcore.co/egy/notify/notifications',
+        pusher_api_key : '',
+        pusher_cluster : '',
+        language: 'egy',
+        module:{}
+    };
+                            bookingCore.module.hotel = '../hotel.html';
+                                bookingCore.module.space = '../space.html';
+                                bookingCore.module.car = '../car.html';
+                                bookingCore.module.event = '../event.html';
+                                bookingCore.module.tour = '../tour.html';
+                                bookingCore.module.flight = '../flight.html';
+                                bookingCore.module.boat = '../boat.html';
+                var i18n = {
+        warning:"تحذير",
+        success:"Success",
+        confirm_delete:"تريد ان تحذف؟",
+        confirm:"أكد",
+        cancel:"إلغاء",
+    };
+    var daterangepickerLocale = {
+        "applyLabel": "تطبيق",
+        "cancelLabel": "إلغاء",
+        "fromLabel": "من",
+        "toLabel": "To",
+        "customRangeLabel": "مخصص",
+        "weekLabel": "W",
+        "first_day_of_week": 1,
+        "daysOfWeek": [
+            "Su",
+            "Mo",
+            "Tu",
+            "We",
+            "Th",
+            "Fr",
+            "Sa"
+        ],
+        "monthNames": [
+            "يناير",
+            "فبراير",
+            "مارس",
+            "أبريل",
+            "مايو",
+            "يونيو",
+            "يوليو",
+            "أغسطس",
+            "سبتمبر",
+            "إكتوبر",
+            "نوفمبر",
+            "ديسمبر"
+        ],
+    };
+    window.currentUrl = 'lily-dale-village.html';
+</script>
+    <!-- Styles -->
+        <link href="../../dist/frontend/module/space/css/space96fd.css?_ver=3.4.0" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../../libs/ion_rangeslider/css/ion.rangeSlider.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../libs/fotorama/fotorama.css"/>
+    
+    <link href="../custom-css.css" rel="stylesheet">
+    <link href="../../libs/carousel-2/owl.carousel.css" rel="stylesheet">
+            <link href="../../dist/frontend/css/rtl.css" rel="stylesheet">
+        
+</head>
+<body class="frontend-page header-normal is_single  is-rtl  ">
+        <div class="bravo_wrap">
+                    <div class="bravo_topbar">
+    <div class="container">
+        <div class="content">
+            <div class="topbar-left">
+
+                <div class="socials">
+<a href="#"><i class="fa fa-facebook"></i></a>
+<a href="#"><i class="fa fa-linkedin"></i></a>
+<a href="#"><i class="fa fa-google-plus"></i></a>
+</div>
+<span class="line"></span>
+<a href="../../cdn-cgi/l/email-protection.html#ea8985849e8b899eaa8885858183848d8985988fc49e8f999e"><span class="__cf_email__" data-cfemail="2f4c40415b4e4c5b6f4d4040444641484c405d4a015b4a5c5b">[email&#160;protected]</span></a>
+
+
+            </div>
+            <div class="topbar-right">
+                <ul class="topbar-items">
+                    <li class="dropdown">
+                                                                            <a href="#" data-toggle="dropdown" class="is_login">
+                    USD
+                    <i class="fa fa-angle-down"></i>
+                </a>
+                            <ul class="dropdown-menu text-left width-auto">
+                                                <li>
+                        <a href="lily-dale-village.html?set_currency=eur" class="is_login">
+                            EUR
+                        </a>
+                    </li>
+                                                                <li>
+                        <a href="lily-dale-village.html?set_currency=jpy" class="is_login">
+                            JPY
+                        </a>
+                    </li>
+                                                                </ul>
+    </li>
+                    <li class="dropdown">
+                                                                            <a href="#" data-toggle="dropdown" class="is_login">
+                                            <span class="flag-icon flag-icon-eg"></span>
+                                        Egyptian
+                    <i class="fa fa-angle-down"></i>
+                </a>
+                                                <ul class="dropdown-menu text-left">
+                                                <li>
+                        <a href="../../space/lily-dale-village.html?set_lang=en" class="is_login">
+                                                            <span class="flag-icon flag-icon-gb"></span>
+                                                        English
+                        </a>
+                    </li>
+                                                                <li>
+                        <a href="../../ja/space/lily-dale-village.html?set_lang=ja" class="is_login">
+                                                            <span class="flag-icon flag-icon-jp"></span>
+                                                        Japanese
+                        </a>
+                    </li>
+                                                                                            <li>
+                        <a href="../../pt_BR/space/lily-dale-village.html?set_lang=pt_BR" class="is_login">
+                                                            <span class="flag-icon flag-icon-br"></span>
+                                                        Portugues
+                        </a>
+                    </li>
+                                    </ul>
+    </li>
+                                        <li class="login-item">
+                            <a href="#login" data-toggle="modal" data-target="#login" class="login">تسجيل الدخول</a>
+                        </li>
+                                                    <li class="signup-item">
+                                <a href="#register" data-toggle="modal" data-target="#register" class="signup">إنشاء حساب</a>
+                            </li>
+                                                            </ul>
+            </div>
+        </div>
+    </div>
+</div>
+            <div class="bravo_header ">
+    <div class="container">
+        <div class="content">
+            <div class="header-left">
+                <a href="../../egy.html" class="bravo-logo">
+                                                                                        <img src="../../uploads/demo/general/logo.svg" alt="Booking Core">
+                                    </a>
+                <div class="bravo-menu">
+                    <ul class="main-menu menu-generated"><li class=" depth-0"><a  target="" href="../index.html" >Home <i class="caret fa fa-angle-down"></i></a><ul class="subnav children-menu menu-dropdown"><li class=" depth-1"><a  target="" href="../index.html" >Home Page</a></li><li class=" depth-1"><a  target="" href="../page/home-page-v2.html" >Home Page v2</a></li><li class=" depth-1"><a  target="" href="../page/hotel.html" >Home Hotel</a></li><li class=" depth-1"><a  target="" href="../page/home-tour-agency.html" >Home Tour Agency</a></li><li class=" depth-1"><a  target="" href="../page/tour.html" >Home Tour</a></li><li class=" depth-1"><a  target="" href="../page/space.html" >Home Space</a></li><li class=" depth-1"><a  target="" href="../page/car.html" >Home Car</a></li></ul></li><li class=" depth-0"><a  target="" href="../hotel.html" >Hotel <i class="caret fa fa-angle-down"></i></a><ul class="subnav children-menu menu-dropdown"><li class=" depth-1"><a  target="" href="../hotel.html" >Hotel List</a></li><li class=" depth-1"><a  target="" href="../hotel76a0.html?_layout=map" >Hotel Map</a></li><li class=" depth-1"><a  target="" href="../hotel/parian-holiday-villas.html" >Hotel Detail</a></li></ul></li><li class=" depth-0"><a  target="" href="../tour.html" >Tours <i class="caret fa fa-angle-down"></i></a><ul class="subnav children-menu menu-dropdown"><li class=" depth-1"><a  target="" href="../tour.html" >Tour List</a></li><li class=" depth-1"><a  target="" href="../tour76a0.html?_layout=map" >Tour Map</a></li><li class=" depth-1"><a  target="" href="../tour/paris-vacation-travel.html" >Tour Detail</a></li></ul></li><li class=" depth-0"><a  target="" href="../space.html" >Space <i class="caret fa fa-angle-down"></i></a><ul class="subnav children-menu menu-dropdown"><li class=" depth-1"><a  target="" href="../space.html" >Space List</a></li><li class=" depth-1"><a  target="" href="../space76a0.html?_layout=map" >Space Map</a></li><li class=" depth-1"><a  target="" href="stay-greenwich-village.html" >Space Detail</a></li></ul></li><li class=" depth-0"><a  target="" href="../car.html" >Car <i class="caret fa fa-angle-down"></i></a><ul class="subnav children-menu menu-dropdown"><li class=" depth-1"><a  target="" href="../car.html" >Car List</a></li><li class=" depth-1"><a  target="" href="../car76a0.html?_layout=map" >Car Map</a></li><li class=" depth-1"><a  target="" href="../car/vinfast-lux-a20-plus.html" >Car Detail</a></li></ul></li><li class=" depth-0"><a  target="" href="../event.html" >Event <i class="caret fa fa-angle-down"></i></a><ul class="subnav children-menu menu-dropdown"><li class=" depth-1"><a  target="" href="../event.html" >Event List</a></li><li class=" depth-1"><a  target="" href="../event76a0.html?_layout=map" >Event Map</a></li><li class=" depth-1"><a  target="" href="../event/aspen-glade-weddings-events.html" >Event Detail</a></li></ul></li><li class=" depth-0"><a  target="" href="../flight.html" >Flight</a></li><li class=" depth-0"><a  target="" href="../boat.html" >Boat <i class="caret fa fa-angle-down"></i></a><ul class="subnav children-menu menu-dropdown"><li class=" depth-1"><a  target="" href="../boat.html" >Boat List</a></li><li class=" depth-1"><a  target="" href="../boat76a0.html?_layout=map" >Boat Map</a></li><li class=" depth-1"><a  target="" href="../boat/blue-moon-yc-300.html" >Boat Detail</a></li></ul></li><li class=" depth-0"><a  target="" href="#" >Pages <i class="caret fa fa-angle-down"></i></a><ul class="subnav children-menu menu-dropdown"><li class=" depth-1"><a  target="" href="../login.html" >Plan</a></li><li class=" depth-1"><a  target="" href="../news.html" >News List</a></li><li class=" depth-1"><a  target="" href="../news/morning-in-the-northern-sea.html" >News Detail</a></li><li class=" depth-1"><a  target="" href="../location/paris.html" >Location Detail</a></li><li class=" depth-1"><a  target="" href="../page/become-a-vendor.html" >Become a vendor</a></li><li class=" depth-1"><a  target="" href="../contact.html" >Contact</a></li></ul></li></ul>                </div>
+            </div>
+            <div class="header-right">
+                                <button class="bravo-more-menu">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="bravo-menu-mobile" style="display:none;">
+        <div class="user-profile">
+            <div class="b-close"><i class="icofont-scroll-left"></i></div>
+            <div class="avatar"></div>
+            <ul>
+                                    <li>
+                        <a href="#login" data-toggle="modal" data-target="#login" class="login">تسجيل الدخول</a>
+                    </li>
+                                            <li>
+                            <a href="#register" data-toggle="modal" data-target="#register" class="signup">إنشاء حساب</a>
+                        </li>
+                                                </ul>
+            <ul class="multi-lang">
+                <li class="dropdown">
+                                                                            <a href="#" data-toggle="dropdown" class="is_login">
+                    USD
+                    <i class="fa fa-angle-down"></i>
+                </a>
+                            <ul class="dropdown-menu text-left width-auto">
+                                                <li>
+                        <a href="lily-dale-village.html?set_currency=eur" class="is_login">
+                            EUR
+                        </a>
+                    </li>
+                                                                <li>
+                        <a href="lily-dale-village.html?set_currency=jpy" class="is_login">
+                            JPY
+                        </a>
+                    </li>
+                                                                </ul>
+    </li>
+            </ul>
+            <ul class="multi-lang">
+                <li class="dropdown">
+                                                                            <a href="#" data-toggle="dropdown" class="is_login">
+                                            <span class="flag-icon flag-icon-eg"></span>
+                                        Egyptian
+                    <i class="fa fa-angle-down"></i>
+                </a>
+                                                <ul class="dropdown-menu text-left">
+                                                <li>
+                        <a href="../../space/lily-dale-village.html?set_lang=en" class="is_login">
+                                                            <span class="flag-icon flag-icon-gb"></span>
+                                                        English
+                        </a>
+                    </li>
+                                                                <li>
+                        <a href="../../ja/space/lily-dale-village.html?set_lang=ja" class="is_login">
+                                                            <span class="flag-icon flag-icon-jp"></span>
+                                                        Japanese
+                        </a>
+                    </li>
+                                                                                            <li>
+                        <a href="../../pt_BR/space/lily-dale-village.html?set_lang=pt_BR" class="is_login">
+                                                            <span class="flag-icon flag-icon-br"></span>
+                                                        Portugues
+                        </a>
+                    </li>
+                                    </ul>
+    </li>
+            </ul>
+        </div>
+        <div class="g-menu">
+            <ul class="main-menu menu-generated"><li class=" depth-0"><a  target="" href="../index.html" >Home <i class="caret fa fa-angle-down"></i></a><ul class="children-menu menu-dropdown"><li class=" depth-1"><a  target="" href="../index.html" >Home Page</a></li><li class=" depth-1"><a  target="" href="../page/home-page-v2.html" >Home Page v2</a></li><li class=" depth-1"><a  target="" href="../page/hotel.html" >Home Hotel</a></li><li class=" depth-1"><a  target="" href="../page/home-tour-agency.html" >Home Tour Agency</a></li><li class=" depth-1"><a  target="" href="../page/tour.html" >Home Tour</a></li><li class=" depth-1"><a  target="" href="../page/space.html" >Home Space</a></li><li class=" depth-1"><a  target="" href="../page/car.html" >Home Car</a></li></ul></li><li class=" depth-0"><a  target="" href="../hotel.html" >Hotel <i class="caret fa fa-angle-down"></i></a><ul class="children-menu menu-dropdown"><li class=" depth-1"><a  target="" href="../hotel.html" >Hotel List</a></li><li class=" depth-1"><a  target="" href="../hotel76a0.html?_layout=map" >Hotel Map</a></li><li class=" depth-1"><a  target="" href="../hotel/parian-holiday-villas.html" >Hotel Detail</a></li></ul></li><li class=" depth-0"><a  target="" href="../tour.html" >Tours <i class="caret fa fa-angle-down"></i></a><ul class="children-menu menu-dropdown"><li class=" depth-1"><a  target="" href="../tour.html" >Tour List</a></li><li class=" depth-1"><a  target="" href="../tour76a0.html?_layout=map" >Tour Map</a></li><li class=" depth-1"><a  target="" href="../tour/paris-vacation-travel.html" >Tour Detail</a></li></ul></li><li class=" depth-0"><a  target="" href="../space.html" >Space <i class="caret fa fa-angle-down"></i></a><ul class="children-menu menu-dropdown"><li class=" depth-1"><a  target="" href="../space.html" >Space List</a></li><li class=" depth-1"><a  target="" href="../space76a0.html?_layout=map" >Space Map</a></li><li class=" depth-1"><a  target="" href="stay-greenwich-village.html" >Space Detail</a></li></ul></li><li class=" depth-0"><a  target="" href="../car.html" >Car <i class="caret fa fa-angle-down"></i></a><ul class="children-menu menu-dropdown"><li class=" depth-1"><a  target="" href="../car.html" >Car List</a></li><li class=" depth-1"><a  target="" href="../car76a0.html?_layout=map" >Car Map</a></li><li class=" depth-1"><a  target="" href="../car/vinfast-lux-a20-plus.html" >Car Detail</a></li></ul></li><li class=" depth-0"><a  target="" href="../event.html" >Event <i class="caret fa fa-angle-down"></i></a><ul class="children-menu menu-dropdown"><li class=" depth-1"><a  target="" href="../event.html" >Event List</a></li><li class=" depth-1"><a  target="" href="../event76a0.html?_layout=map" >Event Map</a></li><li class=" depth-1"><a  target="" href="../event/aspen-glade-weddings-events.html" >Event Detail</a></li></ul></li><li class=" depth-0"><a  target="" href="../flight.html" >Flight</a></li><li class=" depth-0"><a  target="" href="../boat.html" >Boat <i class="caret fa fa-angle-down"></i></a><ul class="children-menu menu-dropdown"><li class=" depth-1"><a  target="" href="../boat.html" >Boat List</a></li><li class=" depth-1"><a  target="" href="../boat76a0.html?_layout=map" >Boat Map</a></li><li class=" depth-1"><a  target="" href="../boat/blue-moon-yc-300.html" >Boat Detail</a></li></ul></li><li class=" depth-0"><a  target="" href="#" >Pages <i class="caret fa fa-angle-down"></i></a><ul class="children-menu menu-dropdown"><li class=" depth-1"><a  target="" href="../login.html" >Plan</a></li><li class=" depth-1"><a  target="" href="../news.html" >News List</a></li><li class=" depth-1"><a  target="" href="../news/morning-in-the-northern-sea.html" >News Detail</a></li><li class=" depth-1"><a  target="" href="../location/paris.html" >Location Detail</a></li><li class=" depth-1"><a  target="" href="../page/become-a-vendor.html" >Become a vendor</a></li><li class=" depth-1"><a  target="" href="../contact.html" >Contact</a></li></ul></li></ul>        </div>
+    </div>
+</div>
+        
+            <div class="bravo_detail_space">
+        <div class="blog-breadcrumb hidden-xs">
+        <div class="container">
+            <ol class="ul" itemscope itemtype="https://schema.org/BreadcrumbList">
+                <li class="" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="../../index.html" itemprop="item"><span itemprop="name">الصفحة الرئيسية</span></a>
+                    <meta itemprop="position" content="1" /></li>
+                                    <li class=" " itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                                                    <a href="../space.html" itemscope itemtype="https://schema.org/WebPage" itemprop="item" itemid="../space.html"><span itemprop="name">إيجارات العطلات</span></a>
+                                                <meta itemprop="position" content="2" />
+                    </li>
+                                    <li class=" " itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                                                    <a href="../location/paris.html" itemscope itemtype="https://schema.org/WebPage" itemprop="item" itemid="../location/paris.html"><span itemprop="name">Paris</span></a>
+                                                <meta itemprop="position" content="3" />
+                    </li>
+                                    <li class=" active" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                                                    <span itemprop="name">LILY DALE VILLAGE</span>
+                                                <meta itemprop="position" content="4" />
+                    </li>
+                            </ol>
+        </div>
+    </div>
+        <div class="bravo_banner" style="background-image: url('../../uploads/demo/space/space-single-2.jpg')">
+        <div class="container">
+            <div class="bravo_gallery">
+                <div class="btn-group">
+                                            <a href="#" class="btn btn-transparent has-icon bravo-video-popup" data-toggle="modal" data-src="https://www.youtube.com/embed/UfEiKK-iX70" data-target="#myModal">
+                            <i class="input-icon field-icon fa">
+                                <svg height="18px" width="18px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+                                    <g fill="#FFFFFF">
+                                        <path d="M2.25,24C1.009,24,0,22.991,0,21.75V2.25C0,1.009,1.009,0,2.25,0h19.5C22.991,0,24,1.009,24,2.25v19.5
+                                            c0,1.241-1.009,2.25-2.25,2.25H2.25z M2.25,1.5C1.836,1.5,1.5,1.836,1.5,2.25v19.5c0,0.414,0.336,0.75,0.75,0.75h19.5
+                                            c0.414,0,0.75-0.336,0.75-0.75V2.25c0-0.414-0.336-0.75-0.75-0.75H2.25z">
+                                        </path>
+                                        <path d="M9.857,16.5c-0.173,0-0.345-0.028-0.511-0.084C8.94,16.281,8.61,15.994,8.419,15.61c-0.11-0.221-0.169-0.469-0.169-0.716
+                                            V9.106C8.25,8.22,8.97,7.5,9.856,7.5c0.247,0,0.495,0.058,0.716,0.169l5.79,2.896c0.792,0.395,1.114,1.361,0.719,2.153
+                                            c-0.154,0.309-0.41,0.565-0.719,0.719l-5.788,2.895C10.348,16.443,10.107,16.5,9.857,16.5z M9.856,9C9.798,9,9.75,9.047,9.75,9.106
+                                            v5.788c0,0.016,0.004,0.033,0.011,0.047c0.013,0.027,0.034,0.044,0.061,0.054C9.834,14.998,9.845,15,9.856,15
+                                            c0.016,0,0.032-0.004,0.047-0.011l5.788-2.895c0.02-0.01,0.038-0.027,0.047-0.047c0.026-0.052,0.005-0.115-0.047-0.141l-5.79-2.895
+                                            C9.889,9.004,9.872,9,9.856,9z">
+                                        </path>
+                                    </g>
+                                </svg>
+                            </i>فيديو إيجارات العطلات
+                        </a>
+                                    </div>
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item bravo_embed_video" src="#" allowscriptaccess="always" allow="autoplay"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="bravo_content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-9">
+                                                <div class="g-header">
+    <div class="left">
+        <h1>LILY DALE VILLAGE</h1>
+                    <p class="address"><i class="fa fa-map-marker"></i>
+                Porte de Vanves
+            </p>
+            </div>
+    <div class="right">
+                                    <div class="review-score">
+                    <div class="head">
+                        <div class="left">
+                            <span class="head-rating">ممتاز</span>
+                            <span class="text-rating">من 2 تقييمات</span>
+                        </div>
+                        <div class="score">
+                            4.5<span>/5</span>
+                        </div>
+                    </div>
+                    <div class="foot">
+                        100% مسافرون يوصون بة
+                    </div>
+                </div>
+                        </div>
+</div>
+<div class="g-space-feature">
+    <div class="row">
+                    <div class="col-xs-6 col-lg-3 col-md-6">
+                <div class="item">
+                    <div class="icon">
+                        <i class="icofont-hotel"></i>
+                    </div>
+                    <div class="info">
+                        <h4 class="name">سرير</h4>
+                        <p class="value">
+                            8
+                        </p>
+                    </div>
+                </div>
+            </div>
+                            <div class="col-xs-6 col-lg-3 col-md-6">
+                <div class="item">
+                    <div class="icon">
+                        <i class="icofont-bathtub"></i>
+                    </div>
+                    <div class="info">
+                        <h4 class="name">حمام</h4>
+                        <p class="value">
+                            10
+                        </p>
+                    </div>
+                </div>
+            </div>
+                                <div class="col-xs-6 col-lg-3 col-md-6">
+                <div class="item">
+                    <div class="icon">
+                        <i class="icofont-ruler-compass-alt"></i>
+                    </div>
+                    <div class="info">
+                        <h4 class="name">المساحة</h4>
+                        <p class="value">
+                            128 sqft
+                        </p>
+                    </div>
+                </div>
+            </div>
+                                            <div class="col-xs-6 col-lg-3 col-md-6">
+                <div class="item">
+                    <div class="icon">
+                        <i class="icofont-island-alt"></i>
+                    </div>
+                    <div class="info">
+                        <h4 class="name">الموقع</h4>
+                        <p class="value">
+                            Paris
+                        </p>
+                    </div>
+                </div>
+            </div>
+            </div>
+</div>
+<div class="g-gallery">
+        <div class="fotorama" data-width="100%" data-thumbwidth="135" data-thumbheight="135" data-thumbmargin="15" data-nav="thumbs" data-allowfullscreen="true">
+                            <a href="../../uploads/demo/space/gallery/space-gallery-1.jpg" data-thumb="https://sandbox.bookingcore.co/uploads/demo/space/gallery/space-gallery-1.jpg" data-alt="جاليرى"></a>
+                            <a href="../../uploads/demo/space/gallery/space-gallery-2.jpg" data-thumb="https://sandbox.bookingcore.co/uploads/demo/space/gallery/space-gallery-2.jpg" data-alt="جاليرى"></a>
+                            <a href="../../uploads/demo/space/gallery/space-gallery-3.jpg" data-thumb="https://sandbox.bookingcore.co/uploads/demo/space/gallery/space-gallery-3.jpg" data-alt="جاليرى"></a>
+                            <a href="../../uploads/demo/space/gallery/space-gallery-4.jpg" data-thumb="https://sandbox.bookingcore.co/uploads/demo/space/gallery/space-gallery-4.jpg" data-alt="جاليرى"></a>
+                            <a href="../../uploads/demo/space/gallery/space-gallery-5.jpg" data-thumb="https://sandbox.bookingcore.co/uploads/demo/space/gallery/space-gallery-5.jpg" data-alt="جاليرى"></a>
+                            <a href="../../uploads/demo/space/gallery/space-gallery-6.jpg" data-thumb="https://sandbox.bookingcore.co/uploads/demo/space/gallery/space-gallery-6.jpg" data-alt="جاليرى"></a>
+                            <a href="../../uploads/demo/space/gallery/space-gallery-7.jpg" data-thumb="https://sandbox.bookingcore.co/uploads/demo/space/gallery/space-gallery-7.jpg" data-alt="جاليرى"></a>
+                    </div>
+        <div class="social">
+            <div class="social-share">
+                <span class="social-icon">
+                    <i class="icofont-share"></i>
+                </span>
+                <ul class="share-wrapper">
+                    <li>
+                        <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://sandbox.bookingcore.co/egy/space/lily-dale-village&amp;title=LILY%20DALE%20VILLAGE" target="_blank" rel="noopener" original-title="فيسبوك">
+                            <i class="fa fa-facebook fa-lg"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="twitter" href="https://twitter.com/share?url=https://sandbox.bookingcore.co/egy/space/lily-dale-village&amp;title=LILY%20DALE%20VILLAGE" target="_blank" rel="noopener" original-title="تويتر">
+                            <i class="fa fa-twitter fa-lg"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+                            <div class="service-wishlist " data-id="10" data-type="space">
+                    <i class="fa fa-heart-o"></i>
+                </div>
+                    </div>
+    </div>
+    <div class="g-overview">
+        <h3>نظرة عامة</h3>
+        <div class="description">
+            <p>Libero sem vitae sed donec conubia integer nisi integer rhoncus imperdiet orci odio libero est integer a integer tincidunt sollicitudin blandit fusce nibh leo vulputate lobortis egestas dapibus faucibus metus conubia maecenas cras potenti cum hac arcu rhoncus nullam eros dictum torquent integer cursus bibendum sem sociis molestie tellus purus</p><p>Quam fusce convallis ipsum malesuada amet velit aliquam urna nullam vehicula fermentum id morbi dis magnis porta sagittis euismod etiam</p><h4>HIGHLIGHTS</h4><ul><li>Visit the Museum of Modern Art in Manhattan</li><li>See amazing works of contemporary art, including Vincent van Gogh's The Starry Night</li><li>Check out Campbell's Soup Cans by Warhol and The Dance (I) by Matisse</li><li>Behold masterpieces by Gauguin, Dali, Picasso, and Pollock</li><li>Enjoy free audio guides available in English, French, German, Italian, Spanish, Portuguese</li></ul>        </div>
+    </div>
+<div class="g-attributes space-type attr-3">
+                <h3>Space Type</h3>
+                                <div class="list-attributes">
+                                                                    <div class="item auditorium term-15">
+                                                            <i class="icofont-check-circled icon-default"></i>
+                                                        Auditorium</div>
+                                                                    <div class="item bar term-16">
+                                                            <i class="icofont-check-circled icon-default"></i>
+                                                        Bar</div>
+                                                                    <div class="item cafe term-17">
+                                                            <i class="icofont-check-circled icon-default"></i>
+                                                        Cafe</div>
+                                                                    <div class="item ballroom term-18">
+                                                            <i class="icofont-check-circled icon-default"></i>
+                                                        Ballroom</div>
+                                                                    <div class="item dance-studio term-19">
+                                                            <i class="icofont-check-circled icon-default"></i>
+                                                        Dance Studio</div>
+                                                                    <div class="item office term-20">
+                                                            <i class="icofont-check-circled icon-default"></i>
+                                                        Office</div>
+                                                                    <div class="item recording-studio term-22">
+                                                            <i class="icofont-check-circled icon-default"></i>
+                                                        Recording Studio</div>
+                                                                    <div class="item yoga-studio term-23">
+                                                            <i class="icofont-check-circled icon-default"></i>
+                                                        Yoga Studio</div>
+                                                                    <div class="item villa term-24">
+                                                            <i class="icofont-check-circled icon-default"></i>
+                                                        Villa</div>
+                                                                    <div class="item warehouse term-25">
+                                                            <i class="icofont-check-circled icon-default"></i>
+                                                        Warehouse</div>
+                                    </div>
+            </div>
+                                        <div class="g-attributes amenities attr-4">
+                <h3>Amenities</h3>
+                                <div class="list-attributes">
+                                                                    <div class="item air-conditioning term-26">
+                                                                                            <img src="../../uploads/demo/space/featured-box/icon-space-box-1.png" class="img-responsive" alt="Air Conditioning">
+                                                        Air Conditioning</div>
+                                                                    <div class="item breakfast term-27">
+                                                                                            <img src="../../uploads/demo/space/featured-box/icon-space-box-2.png" class="img-responsive" alt="Breakfast">
+                                                        Breakfast</div>
+                                                                    <div class="item kitchen term-28">
+                                                                                            <img src="../../uploads/demo/space/featured-box/icon-space-box-3.png" class="img-responsive" alt="Kitchen">
+                                                        Kitchen</div>
+                                                                    <div class="item parking term-29">
+                                                                                            <img src="../../uploads/demo/space/featured-box/icon-space-box-4.png" class="img-responsive" alt="Parking">
+                                                        Parking</div>
+                                                                    <div class="item pool term-30">
+                                                                                            <img src="../../uploads/demo/space/featured-box/icon-space-box-5.png" class="img-responsive" alt="Pool">
+                                                        Pool</div>
+                                    </div>
+            </div>
+            <div class="g-faq">
+    <h3> أسئلة و أجوبة </h3>
+            <div class="item">
+            <div class="header">
+                <i class="field-icon icofont-support-faq"></i>
+                <h5>Check-in time?</h5>
+                <span class="arrow"><i class="fa fa-angle-down"></i></span>
+            </div>
+            <div class="body">
+                As a rough guide, the check-in time is after 12 a.m. Let us know your arrival time in case you schedule and early check in we‘ll do our best to have your room available.
+            </div>
+        </div>
+            <div class="item">
+            <div class="header">
+                <i class="field-icon icofont-support-faq"></i>
+                <h5>Check-out time?</h5>
+                <span class="arrow"><i class="fa fa-angle-down"></i></span>
+            </div>
+            <div class="body">
+                As a rough guide, the check-out time is before 12pm. If you plan a late check out kindly let us know your departure time, we’ll our best to satisfy your needs.
+            </div>
+        </div>
+            <div class="item">
+            <div class="header">
+                <i class="field-icon icofont-support-faq"></i>
+                <h5>Is Reception open 24 hours?</h5>
+                <span class="arrow"><i class="fa fa-angle-down"></i></span>
+            </div>
+            <div class="body">
+                Yes, Reception service is available 24 hours.
+            </div>
+        </div>
+            <div class="item">
+            <div class="header">
+                <i class="field-icon icofont-support-faq"></i>
+                <h5>Which languages are spoken at Reception?</h5>
+                <span class="arrow"><i class="fa fa-angle-down"></i></span>
+            </div>
+            <div class="body">
+                Italian, English, French, German and Spanish.
+            </div>
+        </div>
+            <div class="item">
+            <div class="header">
+                <i class="field-icon icofont-support-faq"></i>
+                <h5>Can I leave my luggage?</h5>
+                <span class="arrow"><i class="fa fa-angle-down"></i></span>
+            </div>
+            <div class="body">
+                Yes, we can look after your luggage. If at check in your room is not ready yet or in case of early check out after .We will store your luggage free of charge on your check-in and check-out days.
+            </div>
+        </div>
+            <div class="item">
+            <div class="header">
+                <i class="field-icon icofont-support-faq"></i>
+                <h5>Internet connection?</h5>
+                <span class="arrow"><i class="fa fa-angle-down"></i></span>
+            </div>
+            <div class="body">
+                A wireless internet connection is available throughout the hotel.
+
+The guest rooms feature hi-speed web connectivity (both wireless and cabled).
+            </div>
+        </div>
+    </div>
+<div class="g-location">
+    <h3>الموقع</h3>
+    <div class="location-map">
+        <div id="map_content"></div>
+    </div>
+</div>
+                        <div class="bravo-reviews" id="bravo-reviews">
+        <h3>تقييمات</h3>
+                    <div class="review-box">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="review-box-score">
+                            <div class="review-score">
+                                4.5<span class="per-total">/5</span>
+                            </div>
+                            <div class="review-score-text">
+                                ممتاز
+                            </div>
+                            <div class="review-score-base">
+                                مرتكز على
+                                <span>
+                                                                            2 تقييمات
+                                                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="review-sumary">
+                                                                                                <div class="item">
+                                        <div class="label">
+                                            ممتاز
+                                        </div>
+                                        <div class="progress">
+                                            <div class="percent green" style="width: 50%"></div>
+                                        </div>
+                                        <div class="number">1</div>
+                                    </div>
+                                                                    <div class="item">
+                                        <div class="label">
+                                            جيد جدا
+                                        </div>
+                                        <div class="progress">
+                                            <div class="percent green" style="width: 50%"></div>
+                                        </div>
+                                        <div class="number">1</div>
+                                    </div>
+                                                                    <div class="item">
+                                        <div class="label">
+                                            جيد
+                                        </div>
+                                        <div class="progress">
+                                            <div class="percent green" style="width: 0%"></div>
+                                        </div>
+                                        <div class="number">0</div>
+                                    </div>
+                                                                    <div class="item">
+                                        <div class="label">
+                                            ضعيف
+                                        </div>
+                                        <div class="progress">
+                                            <div class="percent green" style="width: 0%"></div>
+                                        </div>
+                                        <div class="number">0</div>
+                                    </div>
+                                                                    <div class="item">
+                                        <div class="label">
+                                            ضعيف جدا
+                                        </div>
+                                        <div class="progress">
+                                            <div class="percent green" style="width: 0%"></div>
+                                        </div>
+                                        <div class="number">0</div>
+                                    </div>
+                                                                                    </div>
+                    </div>
+                </div>
+            </div>
+                <div class="review-list">
+                                                                    <div class="review-item">
+                        <div class="review-item-head">
+                            <div class="media">
+                                <div class="media-left">
+                                                                            <img class="avatar" src="../../images/avatar.png" alt="bpxs ksiem">
+                                                                    </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">bpxs ksiem</h4>
+                                    <div class="date">01/13/2025 02:30</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-item-body">
+                            <h4 class="title"> Trip was great </h4>
+                                                            <ul class="review-star">
+                                                                                                                        <li><i class="fa fa-star"></i></li>
+                                                                                                                                                                <li><i class="fa fa-star"></i></li>
+                                                                                                                                                                <li><i class="fa fa-star"></i></li>
+                                                                                                                                                                <li><i class="fa fa-star"></i></li>
+                                                                                                                                                                <li><i class="fa fa-star"></i></li>
+                                                                                                            </ul>
+                                                        <div class="detail">
+                                Eum eu sumo albucius perfecto, commodo torquatos consequuntur pro ut, id posse splendide ius. Cu nisl putent omittantur usu, mutat atomorum ex pro, ius nibh nonumy id. Nam at eius dissentias disputando, molestie mnesarchum complectitur per te
+                            </div>
+                                                    </div>
+                                            </div>
+                                                        <div class="review-item">
+                        <div class="review-item-head">
+                            <div class="media">
+                                <div class="media-left">
+                                                                            <img class="avatar" src="../../images/avatar.png" alt="Dax Loopy">
+                                                                    </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Dax Loopy</h4>
+                                    <div class="date">01/13/2025 02:30</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-item-body">
+                            <h4 class="title"> Great Trip </h4>
+                                                            <ul class="review-star">
+                                                                                                                        <li><i class="fa fa-star"></i></li>
+                                                                                                                                                                <li><i class="fa fa-star"></i></li>
+                                                                                                                                                                <li><i class="fa fa-star"></i></li>
+                                                                                                                                                                <li><i class="fa fa-star"></i></li>
+                                                                                                                                                                <li><i class="fa fa-star-o"></i></li>
+                                                                                                            </ul>
+                                                        <div class="detail">
+                                Eum eu sumo albucius perfecto, commodo torquatos consequuntur pro ut, id posse splendide ius. Cu nisl putent omittantur usu, mutat atomorum ex pro, ius nibh nonumy id. Nam at eius dissentias disputando, molestie mnesarchum complectitur per te
+                            </div>
+                                                    </div>
+                                            </div>
+                                    </div>
+        <div class="review-pag-wrapper">
+                            <div class="bravo-pagination">
+                    
+                </div>
+                <div class="review-pag-text">
+                    عرض 1 - 2 من 2 الكل
+                </div>
+                    </div>
+                            <div class="review-message">
+                يجب عليك <a href='#login' data-toggle='modal' data-target='#login'> تسجيل الدخول </a> لكتابة تقييم
+            </div>
+            </div>
+                    </div>
+                    <div class="col-md-12 col-lg-3">
+                        <div class="owner-info widget-box">
+    <div class="media">
+        <div class="media-left">
+            <a href="../../index.html" class="avatar-cover" style="background-image: url('../../images/avatar.png')" >
+            </a>
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading"><a class="author-link" href="../../index.html">Customer 01</a>
+                                    <img data-toggle="tooltip" data-placement="top" src="../../icon/ico-not-vefified-1.svg" title="لم يتم التحقق منة" alt="Verified">
+                            </h4>
+            <p>مشترك منذ Jan 2025</p>
+                    </div>
+    </div>
+</div>
+                        <div class="bravo_single_book_wrap">
+    <div class="bravo_single_book">
+        <div id="bravo_space_book_app" v-cloak>
+                        <div class="form-head">
+                <div class="price">
+                    <span class="label">
+                        من
+                    </span>
+                    <span class="value">
+                        <span class="onsale"></span>
+                        <span class="text-lg">$250</span>
+                    </span>
+                </div>
+            </div>
+            <div class="nav-enquiry" v-if="is_form_enquiry_and_book">
+                <div class="enquiry-item active" >
+                    <span>إحجز</span>
+                </div>
+                <div class="enquiry-item" data-toggle="modal" data-target="#enquiry_form_modal">
+                    <span>استفسار</span>
+                </div>
+            </div>
+            <div class="form-book" :class="{'d-none':enquiry_type!='book'}">
+                <div class="form-content">
+                    <div class="form-group form-date-field form-date-search clearfix " data-format="MM/DD/YYYY">
+                        <div class="date-wrapper clearfix" @click="openStartDate">
+                            <div class="check-in-wrapper">
+                                <label>حدد التواريخ</label>
+                                <div class="render check-in-render" v-html="start_date_html"></div>
+                                                                                            </div>
+                            <i class="fa fa-angle-down arrow"></i>
+                        </div>
+                        <input type="text" class="start_date" ref="start_date" style="height: 1px; visibility: hidden">
+                    </div>
+                    <div class="" >
+                        <div class="form-group form-guest-search">
+                            <div class="guest-wrapper d-flex justify-content-between align-items-center">
+                                <div class="flex-grow-1">
+                                    <label>بالغين</label>
+                                    <div class="render check-in-render">الأعمار فوق ١٢ سنة</div>
+                                </div>
+                                <div class="flex-shrink-0">
+                                    <div class="input-number-group">
+                                        <i class="icon ion-ios-remove-circle-outline" @click="minusPersonType('adults')"></i>
+                                        <span class="input"><input type="number" v-model="adults" min="1"/></span>
+                                        <i class="icon ion-ios-add-circle-outline" @click="addPersonType('adults')"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group form-guest-search">
+                            <div class="guest-wrapper d-flex justify-content-between align-items-center">
+                                <div class="flex-grow-1">
+                                    <label>أطفال</label>
+                                    <div class="render check-in-render">الأعمار ما بين ٢-١٢ سنة</div>
+                                </div>
+                                <div class="flex-shrink-0">
+                                    <div class="input-number-group">
+                                        <i class="icon ion-ios-remove-circle-outline" @click="minusPersonType('children')"></i>
+                                        <span class="input"><input type="number" v-model="children" min="0"/></span>
+                                        <i class="icon ion-ios-add-circle-outline" @click="addPersonType('children')"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-section-group form-group" v-if="extra_price.length">
+                        <h4 class="form-section-title">أسعار اضافية:</h4>
+                        <div class="form-group " v-for="(type,index) in extra_price">
+                            <div class="extra-price-wrap d-flex justify-content-between">
+                                <div class="flex-grow-1">
+                                    <label><input type="checkbox" true-value="1" false-value="0" v-model="type.enable"> {{type.name}}</label>
+                                    <div class="render" v-if="type.price_type">({{type.price_type}})</div>
+                                </div>
+                                <div class="flex-shrink-0">{{type.price_html}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-section-group form-group" v-if="discount_by_days_output.length">
+                        <h4 class="form-section-title">تخفيضات</h4>
+                        <div class="extra-price-wrap d-flex justify-content-between" v-for="(type,index) in discount_by_days_output">
+                            <div class="flex-grow-1">
+                                <span class="render" v-if='type.to'>
+                                    {{type.from}} - {{type.to}} days
+                                </span>
+                                <span class="render" v-else >
+                                    من {{type.from}} يوم
+                                </span>
+                            </div>
+                            <div class="flex-shrink-0">
+                                <div class="unit">
+                                    - {{ formatMoney(type.total) }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-section-group form-group-padding" v-if="buyer_fees.length">
+                        <div class="extra-price-wrap d-flex justify-content-between" v-for="(type,index) in buyer_fees">
+                            <div class="flex-grow-1">
+                                <label>{{type.type_name}}
+                                    <i class="icofont-info-circle" v-if="type.desc" data-toggle="tooltip" data-placement="top" :title="type.type_desc"></i>
+                                </label>
+                                <div class="render" v-if="type.price_type">({{type.price_type}})</div>
+                            </div>
+                            <div class="flex-shrink-0">
+                                <div class="unit" v-if='type.unit == "percent"'>
+                                    {{ type.price }}%
+                                </div>
+                                <div class="unit" v-else >
+                                    {{ formatMoney(type.price) }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="form-section-total list-unstyled" v-if="total_price > 0">
+                    <li>
+                        <label>الاجمالى</label>
+                        <span class="price">{{total_price_html}}</span>
+                    </li>
+                    <li v-if="is_deposit_ready">
+                        <label for="">إدفع الآن</label>
+                        <span class="price">{{pay_now_price_html}}</span>
+                    </li>
+                </ul>
+                <div v-html="html"></div>
+                <div class="submit-group">
+                    <p><i>
+                                                            10 مسافرون كحد أقصى
+                                                    </i>
+                    </p>
+                    <a class="btn btn-large" @click="doSubmit($event)" :class="{'disabled':onSubmit,'btn-success':(step == 2),'btn-primary':step == 1}" name="submit">
+                        <span v-if="step == 1">إحجز الآن</span>
+                        <span v-if="step == 2">إحجز الآن</span>
+                        <i v-show="onSubmit" class="fa fa-spinner fa-spin"></i>
+                    </a>
+                    <div class="alert-text mt10" v-show="message.content" v-html="message.content" :class="{'danger':!message.type,'success':message.type}"></div>
+                </div>
+            </div>
+            <div class="form-send-enquiry" v-show="enquiry_type=='enquiry'">
+                <button class="btn btn-primary" data-toggle="modal" data-target="#enquiry_form_modal">
+                    تواصل الآن
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" role="dialog" id="enquiry_form_modal">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content enquiry_form_modal_form">
+            <div class="modal-header">
+                <h5 class="modal-title">استفسار</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <input type="hidden" name="service_id" value="10">
+                <input type="hidden" name="service_type" value="space">
+                <div class="form-group" >
+                    <input type="text" class="form-control" value="" name="enquiry_name" placeholder="الأسم">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" value="" name="enquiry_email" placeholder="البريد الإلكتروني *">
+                </div>
+                <div class="form-group" v-if="!enquiry_is_submit">
+                    <input type="text" class="form-control" value="" name="enquiry_phone" placeholder="التليفون">
+                </div>
+                <div class="form-group" v-if="!enquiry_is_submit">
+                    <textarea class="form-control" placeholder="ملحوظة" name="enquiry_note"></textarea>
+                </div>
+                                <div class="message_box"></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلق</button>
+                <button type="button" class="btn btn-primary btn-submit-enquiry">ارسل الآن
+                <i class="fa icon-loading fa-spinner fa-spin fa-fw" style="display: none"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+                    </div>
+                </div>
+                <div class="row end_tour_sticky">
+                    <div class="col-md-12">
+                        <div class="bravo-list-space-related">
+        <h2>قد يعجبك ايضا</h2>
+        <div class="row">
+                            <div class="col-md-3">
+                    <div class="item-loop item-loop-wrap ">
+            <div class="featured">
+            متميز
+        </div>
+        <div class="thumb-image ">
+        <a  href="duplex-greenwich.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/space/space-5.jpg  alt='DUPLEX GREENWICH'>
+                                    </a>
+        <div class="price-wrapper">
+            <div class="price">
+                <span class="onsale"></span>
+                <span class="text-price">
+                    $220
+                                            <span class="unit">/ليلة</span>
+                                    </span>
+            </div>
+        </div>
+        <div class="service-wishlist " data-id="5" data-type="space">
+            <i class="fa fa-heart"></i>
+        </div>
+    </div>
+    <div class="item-title">
+        <a  href="duplex-greenwich.html">
+                            <i class="fa fa-bolt d-none"></i>
+                            DUPLEX GREENWICH
+        </a>
+            </div>
+    <div class="location">
+                                Paris
+            </div>
+            <div class="service-review">
+        <span class="rate">
+             5.0/5  <span class="rate-text">ممتاز</span>
+        </span>
+        <span class="review">
+                             1 تقييم
+                    </span>
+    </div>
+        <div class="amenities">
+                    <span class="amenity total" data-toggle="tooltip"  title="ناس">
+                <i class="input-icon field-icon icofont-people  "></i> 7
+            </span>
+                            <span class="amenity bed" data-toggle="tooltip" title="سرير">
+                <i class="input-icon field-icon icofont-hotel"></i> 9
+            </span>
+                            <span class="amenity bath" data-toggle="tooltip" title="حمام" >
+                <i class="input-icon field-icon icofont-bathtub"></i> 2
+            </span>
+                            <span class="amenity size" data-toggle="tooltip" title="المساحة" >
+                <i class="input-icon field-icon icofont-ruler-compass-alt"></i> 130 sqft
+            </span>
+            </div>
+</div>
+                </div>
+                            <div class="col-md-3">
+                    <div class="item-loop item-loop-wrap ">
+        <div class="thumb-image ">
+        <a  href="the-meatpacking-suites.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/space/space-6.jpg  alt='THE MEATPACKING SUITES'>
+                                    </a>
+        <div class="price-wrapper">
+            <div class="price">
+                <span class="onsale"></span>
+                <span class="text-price">
+                    $320
+                                            <span class="unit">/ليلة</span>
+                                    </span>
+            </div>
+        </div>
+        <div class="service-wishlist " data-id="6" data-type="space">
+            <i class="fa fa-heart"></i>
+        </div>
+    </div>
+    <div class="item-title">
+        <a  href="the-meatpacking-suites.html">
+                            <i class="fa fa-bolt d-none"></i>
+                            THE MEATPACKING SUITES
+        </a>
+            </div>
+    <div class="location">
+                                Paris
+            </div>
+            <div class="service-review">
+        <span class="rate">
+             4.7/5  <span class="rate-text">ممتاز</span>
+        </span>
+        <span class="review">
+                             3 تقييمات
+                    </span>
+    </div>
+        <div class="amenities">
+                    <span class="amenity total" data-toggle="tooltip"  title="ناس">
+                <i class="input-icon field-icon icofont-people  "></i> 9
+            </span>
+                            <span class="amenity bed" data-toggle="tooltip" title="سرير">
+                <i class="input-icon field-icon icofont-hotel"></i> 8
+            </span>
+                            <span class="amenity bath" data-toggle="tooltip" title="حمام" >
+                <i class="input-icon field-icon icofont-bathtub"></i> 8
+            </span>
+                            <span class="amenity size" data-toggle="tooltip" title="المساحة" >
+                <i class="input-icon field-icon icofont-ruler-compass-alt"></i> 121 sqft
+            </span>
+            </div>
+</div>
+                </div>
+                            <div class="col-md-3">
+                    <div class="item-loop item-loop-wrap ">
+        <div class="thumb-image ">
+        <a  href="east-village.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/space/space-7.jpg  alt='EAST VILLAGE'>
+                                    </a>
+        <div class="price-wrapper">
+            <div class="price">
+                <span class="onsale">$300</span>
+                <span class="text-price">
+                    $260
+                                            <span class="unit">/ليلة</span>
+                                    </span>
+            </div>
+        </div>
+        <div class="service-wishlist " data-id="7" data-type="space">
+            <i class="fa fa-heart"></i>
+        </div>
+    </div>
+    <div class="item-title">
+        <a  href="east-village.html">
+                            <i class="fa fa-bolt d-none"></i>
+                            EAST VILLAGE
+        </a>
+                    <div class="sale_info">13%</div>
+            </div>
+    <div class="location">
+                                Paris
+            </div>
+            <div class="service-review">
+        <span class="rate">
+             4.0/5  <span class="rate-text">جيد جدا</span>
+        </span>
+        <span class="review">
+                             4 تقييمات
+                    </span>
+    </div>
+        <div class="amenities">
+                    <span class="amenity total" data-toggle="tooltip"  title="ناس">
+                <i class="input-icon field-icon icofont-people  "></i> 6
+            </span>
+                            <span class="amenity bed" data-toggle="tooltip" title="سرير">
+                <i class="input-icon field-icon icofont-hotel"></i> 7
+            </span>
+                            <span class="amenity bath" data-toggle="tooltip" title="حمام" >
+                <i class="input-icon field-icon icofont-bathtub"></i> 3
+            </span>
+                            <span class="amenity size" data-toggle="tooltip" title="المساحة" >
+                <i class="input-icon field-icon icofont-ruler-compass-alt"></i> 105 sqft
+            </span>
+            </div>
+</div>
+                </div>
+                            <div class="col-md-3">
+                    <div class="item-loop item-loop-wrap ">
+        <div class="thumb-image ">
+        <a  href="paris-greenwich-villa.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/space/space-8.jpg  alt='PARIS GREENWICH VILLA'>
+                                    </a>
+        <div class="price-wrapper">
+            <div class="price">
+                <span class="onsale"></span>
+                <span class="text-price">
+                    $500
+                                            <span class="unit">/ليلة</span>
+                                    </span>
+            </div>
+        </div>
+        <div class="service-wishlist " data-id="8" data-type="space">
+            <i class="fa fa-heart"></i>
+        </div>
+    </div>
+    <div class="item-title">
+        <a  href="paris-greenwich-villa.html">
+                            PARIS GREENWICH VILLA
+        </a>
+            </div>
+    <div class="location">
+                                Paris
+            </div>
+            <div class="service-review">
+        <span class="rate">
+             5.0/5  <span class="rate-text">ممتاز</span>
+        </span>
+        <span class="review">
+                             1 تقييم
+                    </span>
+    </div>
+        <div class="amenities">
+                    <span class="amenity total" data-toggle="tooltip"  title="ناس">
+                <i class="input-icon field-icon icofont-people  "></i> 8
+            </span>
+                            <span class="amenity bed" data-toggle="tooltip" title="سرير">
+                <i class="input-icon field-icon icofont-hotel"></i> 3
+            </span>
+                            <span class="amenity bath" data-toggle="tooltip" title="حمام" >
+                <i class="input-icon field-icon icofont-bathtub"></i> 3
+            </span>
+                            <span class="amenity size" data-toggle="tooltip" title="المساحة" >
+                <i class="input-icon field-icon icofont-ruler-compass-alt"></i> 139 sqft
+            </span>
+            </div>
+</div>
+                </div>
+                    </div>
+    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bravo-more-book-mobile">
+    <div class="container">
+        <div class="left">
+            <div class="g-price">
+                <div class="prefix">
+                    <span class="fr_text">من</span>
+                </div>
+                <div class="price">
+                    <span class="onsale"></span>
+                    <span class="text-price">$250</span>
+                </div>
+            </div>
+
+                                    <div class="service-review tour-review-4.5">
+                <div class="list-star">
+                    <ul class="booking-item-rating-stars">
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                    </ul>
+                    <div class="booking-item-rating-stars-active" style="width: 90%">
+                        <ul class="booking-item-rating-stars">
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <span class="review">
+                                                2 تقييمات
+                                        </span>
+            </div>
+                    </div>
+        <div class="right">
+                            <a class="btn btn-primary bravo-button-book-mobile">إحجز الآن</a>
+                    </div>
+    </div>
+</div>    </div>
+
+        <div class="bravo_footer">
+		<div class="mailchimp">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-lg-10 col-lg-offset-1">
+						<div class="row">
+							<div class="col-xs-12  col-md-7 col-lg-6">
+								<div class="media ">
+									<div class="media-left hidden-xs">
+										<i class="icofont-island-alt"></i>
+									</div>
+									<div class="media-body">
+										<h4 class="media-heading">احصل على أفضل عروضنا</h4>
+										<p>إشترك وسنرسل لك أفضل العروض</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-md-5 col-lg-6">
+								<form action="https://sandbox.bookingcore.co/egy/newsletter/subscribe" class="subcribe-form bravo-subscribe-form bravo-form">
+									<input type="hidden" name="_token" value="W54J0KMOQPX6D0a8URMkHYCmBXQgHewn2jGw2b7d" autocomplete="off">									<div class="form-group">
+										<input type="text" name="email" class="form-control email-input" placeholder="البريد الإلكترونى الخاص بك">
+										<button type="submit" class="btn-submit">إشترك
+											<i class="fa fa-spinner fa-pulse fa-fw"></i>
+										</button>
+									</div>
+									<div class="form-mess"></div>
+								</form>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main-footer">
+			<div class="container">
+				<div class="row">
+					                        													<div class="col-lg-3 col-md-6">
+								<div class="nav-footer">
+									<div class="title">
+										NEED HELP?
+									</div>
+									<div class="context">
+										<div class="contact">
+        <div class="c-title">
+            Call Us
+        </div>
+        <div class="sub">
+            + 00 222 44 5678
+        </div>
+    </div>
+    <div class="contact">
+        <div class="c-title">
+            Email for Us
+        </div>
+        <div class="sub">
+            <a href="../../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="dab2bfb6b6b59aa3b5afa8a9b3aebff4b9b5b7">[email&#160;protected]</a>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="c-title">
+            Follow Us
+        </div>
+        <div class="sub">
+            <a href="#">
+                <i class="icofont-facebook"></i>
+            </a>
+            <a href="#">
+               <i class="icofont-twitter"></i>
+            </a>
+            <a href="#">
+                <i class="icofont-youtube-play"></i>
+            </a>
+        </div>
+    </div>
+									</div>
+								</div>
+							</div>
+													<div class="col-lg-3 col-md-6">
+								<div class="nav-footer">
+									<div class="title">
+										COMPANY
+									</div>
+									<div class="context">
+										<ul>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Community Blog</a></li>
+    <li><a href="#">Rewards</a></li>
+    <li><a href="#">Work with Us</a></li>
+    <li><a href="#">Meet the Team</a></li>
+</ul>
+									</div>
+								</div>
+							</div>
+													<div class="col-lg-3 col-md-6">
+								<div class="nav-footer">
+									<div class="title">
+										SUPPORT
+									</div>
+									<div class="context">
+										<ul>
+    <li><a href="#">Account</a></li>
+    <li><a href="#">Legal</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">Affiliate Program</a></li>
+    <li><a href="#">Privacy Policy</a></li>
+</ul>
+									</div>
+								</div>
+							</div>
+													<div class="col-lg-3 col-md-6">
+								<div class="nav-footer">
+									<div class="title">
+										SETTINGS
+									</div>
+									<div class="context">
+										<ul>
+<li><a href="#">Setting 1</a></li>
+<li><a href="#">Setting 2</a></li>
+</ul>
+									</div>
+								</div>
+							</div>
+															</div>
+			</div>
+		</div>
+		<div class="copy-right">
+			<div class="container context">
+				<div class="row">
+					<div class="col-md-12">
+						Copyright © 2019 by Booking Core
+						<div class="f-visa">
+							Booking Core
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<div class="modal fade login" id="login" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content relative">
+            <div class="modal-header">
+                <h4 class="modal-title">سجل</h4>
+                <span class="c-pointer" data-dismiss="modal" aria-label="Close">
+                    <i class="input-icon field-icon fa">
+                        <img src="../../images/ico_close.svg" alt="close">
+                    </i>
+                </span>
+            </div>
+            <div class="modal-body relative">
+                <form class="bravo-form-login" method="POST" action="https://sandbox.bookingcore.co/egy/login">
+    <input type="hidden" name="redirect" value="">
+    <input type="hidden" name="_token" value="W54J0KMOQPX6D0a8URMkHYCmBXQgHewn2jGw2b7d" autocomplete="off">    <div class="form-group">
+        <input type="text" class="form-control" name="email" autocomplete="off" placeholder="عنوان البريد الإلكتروني">
+        <i class="input-icon icofont-mail"></i>
+        <span class="invalid-feedback error error-email"></span>
+    </div>
+    <div class="form-group">
+        <input type="password" class="form-control" name="password" autocomplete="off"  placeholder="كلمة السر">
+        <i class="input-icon icofont-ui-password"></i>
+        <span class="invalid-feedback error error-password"></span>
+    </div>
+    <div class="form-group">
+        <div class="d-flex justify-content-between">
+            <label for="remember-me" class="mb0">
+                <input type="checkbox" name="remember" id="remember-me" value="1"> تذكرنى <span class="checkmark fcheckbox"></span>
+            </label>
+            <a href="../forgot-password.html">نسيت كلمة السر؟</a>
+        </div>
+    </div>
+        <div class="error message-error invalid-feedback"></div>
+    <div class="form-group">
+        <button class="btn btn-primary form-submit" type="submit">
+            تسجيل الدخول
+            <span class="spinner-grow spinner-grow-sm icon-loading" role="status" aria-hidden="true"></span>
+        </button>
+    </div>
+                <div class="c-grey font-medium f14 text-center"> ليس لديك حساب؟ <a href="#" data-target="#register" data-toggle="modal">إنشاء حساب</a></div>
+    </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade login" id="register" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content relative">
+            <div class="modal-header">
+                <h4 class="modal-title">إنشاء حساب</h4>
+                <span class="c-pointer" data-dismiss="modal" aria-label="Close">
+                    <i class="input-icon field-icon fa">
+                        <img src="../../images/ico_close.svg" alt="close">
+                    </i>
+                </span>
+            </div>
+            <div class="modal-body">
+                <form class="form bravo-form-register" method="post" action="https://sandbox.bookingcore.co/egy/register">
+    <input type="hidden" name="_token" value="W54J0KMOQPX6D0a8URMkHYCmBXQgHewn2jGw2b7d" autocomplete="off">    <div class="row">
+        <div class="col-lg-6 col-md-12">
+            <div class="form-group">
+                <input type="text" class="form-control" name="first_name" autocomplete="off" placeholder="الأسم الأول">
+                <i class="input-icon field-icon icofont-waiter-alt"></i>
+                <span class="invalid-feedback error error-first_name"></span>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+            <div class="form-group">
+                <input type="text" class="form-control" name="last_name" autocomplete="off" placeholder="الأسم الأخير">
+                <i class="input-icon field-icon icofont-waiter-alt"></i>
+                <span class="invalid-feedback error error-last_name"></span>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control" name="phone" autocomplete="off" placeholder="التليفون">
+        <i class="input-icon field-icon icofont-ui-touch-phone"></i>
+        <span class="invalid-feedback error error-phone"></span>
+    </div>
+    <div class="form-group">
+        <input type="email" class="form-control" name="email" autocomplete="off" placeholder="عنوان البريد الإلكتروني">
+        <i class="input-icon field-icon icofont-mail"></i>
+        <span class="invalid-feedback error error-email"></span>
+    </div>
+    <div class="form-group">
+        <input type="password" class="form-control" name="password" autocomplete="off" placeholder="كلمة السر">
+        <i class="input-icon field-icon icofont-ui-password"></i>
+        <span class="invalid-feedback error error-password"></span>
+    </div>
+    <div class="form-group">
+        <label for="term">
+            <input id="term" type="checkbox" name="term" class="mr5">
+            لقد قرأت وقبلت الشروط  <a href='https://triplinoo.com/egy/page/privacy-and-cookies-policy' target='_blank'>سياسة الخصوصية</a>
+            <span class="checkmark fcheckbox"></span>
+        </label>
+        <div><span class="invalid-feedback error error-term"></span></div>
+    </div>
+        <div class="error message-error invalid-feedback"></div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary form-submit">
+            إنشاء حساب
+            <span class="spinner-grow spinner-grow-sm icon-loading" role="status" aria-hidden="true"></span>
+        </button>
+    </div>
+        <div class="c-grey f14 text-center">
+       هل لديك حساب لدينا؟
+        <a href="#" data-target="#login" data-toggle="modal">سجل</a>
+    </div>
+</form>
+            </div>
+        </div>
+    </div>
+</div><link rel="stylesheet" href="../../libs/flags/css/flag-icon.min.css">
+
+
+
+
+<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="../../libs/lazy-load/intersection-observer.js"></script>
+<script async src="../../libs/lazy-load/lazyload.min.js"></script>
+<script>
+    // Set the options to make LazyLoad self-initialize
+    window.lazyLoadOptions = {
+        elements_selector: ".lazy",
+        // ... more custom settings?
+    };
+
+    // Listen to the initialization event and get the instance of LazyLoad
+    window.addEventListener('LazyLoad::Initialized', function (event) {
+        window.lazyLoadInstance = event.detail.instance;
+    }, false);
+
+
+</script>
+<script src="../../libs/lodash.min.js"></script>
+<script src="../../libs/jquery-3.6.3.min.js"></script>
+<script src="../../libs/vue/vue.min.js"></script>
+<script src="../../libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../../libs/bootbox/bootbox.min.js"></script>
+<script src="../../libs/carousel-2/owl.carousel.min.js"></script>
+<script type="text/javascript" src="../../libs/daterange/moment.min.js"></script>
+<script type="text/javascript" src="../../libs/daterange/daterangepicker.min.js"></script>
+<script src="../../libs/select2/js/select2.min.js"></script>
+<script src="../../js/functions96fd.js?_ver=3.4.0"></script>
+
+<script src="../../libs/pusher.min.js"></script>
+<script src="../../js/home96fd.js?_ver=3.4.0"></script>
+
+
+
+
+
+
+
+    <script src='https://maps.googleapis.com/maps/api/js?key=&amp;libraries=places'></script><script src='../../../unpkg.com/%40googlemaps/markerclusterer%402.5.3/dist/index.min.js'></script><script src='../../libs/infobox.js'></script><script src='../../module/core/js/map-engine12fd.js?_ver=3.4.2'></script>
+    <script>
+        jQuery(function ($) {
+                        new BravoMapEngine('map_content', {
+                disableScripts: true,
+                fitBounds: true,
+                center: [51.517883, -0.134314],
+                zoom:12,
+                ready: function (engineMap) {
+                    engineMap.addMarker([51.517883, -0.134314], {
+                        icon_options: {
+                            iconUrl:"https://sandbox.bookingcore.co/images/icons/png/pin.png"
+                        }
+                    });
+                }
+            });
+                    })
+    </script>
+    <script>
+        var bravo_booking_data = {"id":10,"person_types":[],"max":0,"open_hours":[],"extra_price":[{"name":"Lawn garden","price":"100","type":"one_time","number":0,"enable":0,"price_html":"$100","price_type":""},{"name":"Clearning","price":"100","type":"one_time","number":0,"enable":0,"price_html":"$100","price_type":""},{"name":"Breakfasts","price":"200","type":"one_time","number":0,"enable":0,"price_html":"$200","price_type":""}],"minDate":"01\/13\/2025","max_guests":10,"buyer_fees":[{"name":"Cleaning fee","desc":"One-time fee charged by host to cover the cost of cleaning their space.","name_ja":"\u30af\u30ea\u30fc\u30cb\u30f3\u30b0\u4ee3","desc_ja":"\u30b9\u30da\u30fc\u30b9\u3092\u6383\u9664\u3059\u308b\u8cbb\u7528\u3092\u30db\u30b9\u30c8\u304c\u8acb\u6c42\u3059\u308b1\u56de\u9650\u308a\u306e\u6599\u91d1\u3002","price":"100","type":"one_time","type_name":"Cleaning fee","type_desc":"One-time fee charged by host to cover the cost of cleaning their space.","price_type":""},{"name":"Service fee","desc":"This helps us run our platform and offer services like 24\/7 support on your trip.","name_ja":"\u30b5\u30fc\u30d3\u30b9\u6599","desc_ja":"\u3053\u308c\u306b\u3088\u308a\u3001\u5f53\u793e\u306e\u30d7\u30e9\u30c3\u30c8\u30d5\u30a9\u30fc\u30e0\u3092\u5b9f\u884c\u3057\u3001\u65c5\u884c\u4e2d\u306b","price":"200","type":"one_time","type_name":"Service fee","type_desc":"This helps us run our platform and offer services like 24\/7 support on your trip.","price_type":""}],"start_date":"","start_date_html":"\u0645\u0646 \u0641\u0636\u0644\u0643 \u0627\u062e\u062a\u0631","end_date":"","deposit":false,"deposit_type":"","deposit_amount":"","deposit_fomular":"default","is_form_enquiry_and_book":true,"enquiry_type":"book","booking_type":"by_day","discount_by_days":[]}
+        var bravo_booking_i18n = {
+			no_date_select:'Please select Start and End date',
+            no_guest_select:'Please select at least one guest',
+            load_dates_url:'https://sandbox.bookingcore.co/egy/user/space/availability/loadDates',
+            name_required:'يجب كتابة الاسم',
+            email_required:'Email is Required',
+        };
+    </script>
+    <script type="text/javascript" src="../../libs/ion_rangeslider/js/ion.rangeSlider.min.js"></script>
+    <script type="text/javascript" src="../../libs/fotorama/fotorama.js"></script>
+    <script type="text/javascript" src="../../libs/sticky/jquery.sticky.js"></script>
+    <script type="text/javascript" src="../../module/space/js/single-space96fd.js?_ver=3.4.0"></script>
+    </div>
+        <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '../../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-W7B5HJJ');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7B5HJJ"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            xfbml            : true,
+            version          : 'v3.3'
+        });
+    };
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = '../../../connect.facebook.net/en_US/sdk/xfbml.customerchat.html';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+<!-- Load Facebook SDK for JavaScript -->
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+     attribution=setup_tool
+     page_id="2280007165584589">
+</div>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115740936-4"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-115740936-4');
+</script>
+<style>
+    .bravo-buy-button{
+        text-align: center;
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        background-color: #0072bc;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 12px;
+        padding: 10px 20px 8px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        font-weight: 600;
+        z-index: 99;
+    }
+    .bravo-buy-button:hover{
+        text-decoration: none;
+        color: #fff;
+    }
+    .bravo-buy-button .tf-text{
+        background-image: url('../../landing/img/logoen.png');
+        width: 66px;
+        height: 12px;
+        display: inline-block;
+        background-repeat: no-repeat;
+
+    }
+</style>
+<a class="sticky-button bravo-buy-button" target="_blank" href="https://codecanyon.net/item/booking-core-ultimate-booking-system/24043972">
+    <span>Buy on <span class="tf-text"></span></span>
+</a>
+</body>
+
+<!-- Mirrored from sandbox.bookingcore.co/egy/space/lily-dale-village by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 13 Jan 2025 22:11:01 GMT -->
+</html>

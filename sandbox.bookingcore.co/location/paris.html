@@ -1,0 +1,2851 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+
+<!-- Mirrored from sandbox.bookingcore.co/location/paris by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 13 Jan 2025 21:21:42 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="W54J0KMOQPX6D0a8URMkHYCmBXQgHewn2jGw2b7d">
+    
+    <link rel="icon" type="image/png" href="../uploads/demo/general/favicon.png" />
+    
+    <title>Paris - Booking Core</title>
+    <meta name="description" content="New York, a city that doesnt sleep, as Frank Sinatra sang. The Big Apple is one of the largest cities in the United States and one of the most popular in the wh..."/>
+    
+    <meta property="og:url" content="paris.html"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Paris"/>
+    <meta property="og:description" content="New York, a city that doesnt sleep, as Frank Sinatra sang. The Big Apple is one of the largest cities in the United States and one of the most popular in the wh..."/>
+    <meta property="og:image" content="../uploads/demo/location/location-3.jpg"/>
+            <meta property="og:site_name" content="Booking Core" />
+        
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Paris">
+    <meta name="twitter:description" content="New York, a city that doesnt sleep, as Frank Sinatra sang. The Big Apple is one of the largest cities in the United States and one of the most popular in the wh...">
+    <meta name="twitter:image" content="../uploads/demo/location/location-3.jpg">
+    <link rel="canonical" href="paris.html"/>
+    <link href="../libs/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../libs/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="../libs/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="../libs/icofont/icofont.min.css" rel="stylesheet">
+    <link href="../libs/select2/css/select2.min.css" rel="stylesheet">
+    <link href="../dist/frontend/css/notification.css" rel="newest stylesheet">
+    <link href="../dist/frontend/css/app96fd.css?_ver=3.4.0" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="../libs/daterange/daterangepicker.css" >
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="http://fonts.gstatic.com/">
+    <link rel='stylesheet' id='google-font-css-css'  href='https://fonts.googleapis.com/css?family=Poppins%3A300%2C400%2C500%2C600&amp;display=swap' type='text/css' media='all' />
+
+    
+    
+    
+    <script>
+    var bookingCore = {
+        url:'https://sandbox.bookingcore.co',
+        url_root:'https://sandbox.bookingcore.co',
+        admin_url:'https://sandbox.bookingcore.co/admin',
+        booking_decimals:0,
+        thousand_separator:'.',
+        decimal_separator:',',
+        currency_position:'right_space',
+        currency_symbol:'¥',
+        currency_rate:'0.00917113',
+        date_format:'MM/DD/YYYY',
+        map_provider:'gmap',
+        map_gmap_key:'',
+        map_options:{
+            map_lat_default:'',
+            map_lng_default:'',
+            map_clustering: true,
+            map_fit_bounds: true,
+        },
+        routes:{
+            login:'https://sandbox.bookingcore.co/login',
+            register:'https://sandbox.bookingcore.co/register',
+            checkout:'https://sandbox.bookingcore.co/booking/doCheckout'
+        },
+        currentUser: 0,
+        isAdmin : 0,
+        rtl: false,
+        markAsRead:'https://sandbox.bookingcore.co/notify/markAsRead',
+        markAllAsRead:'https://sandbox.bookingcore.co/notify/markAllAsRead',
+        loadNotify : 'https://sandbox.bookingcore.co/notify/notifications',
+        pusher_api_key : '',
+        pusher_cluster : '',
+        language: 'en',
+        module:{}
+    };
+                            bookingCore.module.hotel = '../hotel.html';
+                                bookingCore.module.space = '../space.html';
+                                bookingCore.module.car = '../car.html';
+                                bookingCore.module.event = '../event.html';
+                                bookingCore.module.tour = '../tour.html';
+                                bookingCore.module.flight = '../flight.html';
+                                bookingCore.module.boat = '../boat.html';
+                var i18n = {
+        warning:"Warning",
+        success:"Success",
+        confirm_delete:"Do you want to delete?",
+        confirm:"Confirm",
+        cancel:"Cancel",
+    };
+    var daterangepickerLocale = {
+        "applyLabel": "Apply",
+        "cancelLabel": "Cancel",
+        "fromLabel": "From",
+        "toLabel": "To",
+        "customRangeLabel": "Custom",
+        "weekLabel": "W",
+        "first_day_of_week": 1,
+        "daysOfWeek": [
+            "Su",
+            "Mo",
+            "Tu",
+            "We",
+            "Th",
+            "Fr",
+            "Sa"
+        ],
+        "monthNames": [
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December"
+        ],
+    };
+    window.currentUrl = 'paris.html';
+</script>
+    <!-- Styles -->
+        <link href="../dist/frontend/module/location/css/location96fd.css?_ver=3.4.0" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../libs/ion_rangeslider/css/ion.rangeSlider.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../libs/fotorama/fotorama.css"/>
+    
+    <link href="../custom-css.css" rel="stylesheet">
+    <link href="../libs/carousel-2/owl.carousel.css" rel="stylesheet">
+        
+</head>
+<body class="frontend-page header-normal   ">
+        <div class="bravo_wrap">
+                    <div class="bravo_topbar">
+    <div class="container">
+        <div class="content">
+            <div class="topbar-left">
+
+                <div class="socials">
+<a href="#"><i class="fa fa-facebook"></i></a>
+<a href="#"><i class="fa fa-linkedin"></i></a>
+<a href="#"><i class="fa fa-google-plus"></i></a>
+</div>
+<span class="line"></span>
+<a href="../cdn-cgi/l/email-protection.html#e685898892878592a68489898d8f888185899483c892839592"><span class="__cf_email__" data-cfemail="cdaea2a3b9acaeb98dafa2a2a6a4a3aaaea2bfa8e3b9a8beb9">[email&#160;protected]</span></a>
+
+
+            </div>
+            <div class="topbar-right">
+                <ul class="topbar-items">
+                    <li class="dropdown">
+                                                        <a href="#" data-toggle="dropdown" class="is_login">
+                    JPY
+                    <i class="fa fa-angle-down"></i>
+                </a>
+                                                <ul class="dropdown-menu text-left width-auto">
+                                                <li>
+                        <a href="paris.html?set_currency=eur" class="is_login">
+                            EUR
+                        </a>
+                    </li>
+                                                                                            <li>
+                        <a href="paris.html?set_currency=usd" class="is_login">
+                            USD
+                        </a>
+                    </li>
+                                    </ul>
+    </li>
+                    <li class="dropdown">
+                                    <a href="#" data-toggle="dropdown" class="is_login">
+                                            <span class="flag-icon flag-icon-gb"></span>
+                                        English
+                    <i class="fa fa-angle-down"></i>
+                </a>
+                                                                                        <ul class="dropdown-menu text-left">
+                                                                            <li>
+                        <a href="../ja/location/paris.html?set_lang=ja" class="is_login">
+                                                            <span class="flag-icon flag-icon-jp"></span>
+                                                        Japanese
+                        </a>
+                    </li>
+                                                                <li>
+                        <a href="../egy/location/paris.html?set_lang=egy" class="is_login">
+                                                            <span class="flag-icon flag-icon-eg"></span>
+                                                        Egyptian
+                        </a>
+                    </li>
+                                                                <li>
+                        <a href="../pt_BR/location/paris.html?set_lang=pt_BR" class="is_login">
+                                                            <span class="flag-icon flag-icon-br"></span>
+                                                        Portugues
+                        </a>
+                    </li>
+                                    </ul>
+    </li>
+                                        <li class="login-item">
+                            <a href="#login" data-toggle="modal" data-target="#login" class="login">Login</a>
+                        </li>
+                                                    <li class="signup-item">
+                                <a href="#register" data-toggle="modal" data-target="#register" class="signup">Sign Up</a>
+                            </li>
+                                                            </ul>
+            </div>
+        </div>
+    </div>
+</div>
+            <div class="bravo_header ">
+    <div class="container">
+        <div class="content">
+            <div class="header-left">
+                <a href="../index.html" class="bravo-logo">
+                                                                                        <img src="../uploads/demo/general/logo.svg" alt="Booking Core">
+                                    </a>
+                <div class="bravo-menu">
+                    <ul class="main-menu menu-generated"><li class=" depth-0"><a  target="" href="../index.html" >Home <i class="caret fa fa-angle-down"></i></a><ul class="subnav children-menu menu-dropdown"><li class=" depth-1"><a  target="" href="../index.html" >Home Page</a></li><li class=" depth-1"><a  target="" href="../page/home-page-v2.html" >Home Page v2</a></li><li class=" depth-1"><a  target="" href="../page/hotel.html" >Home Hotel</a></li><li class=" depth-1"><a  target="" href="../page/home-tour-agency.html" >Home Tour Agency</a></li><li class=" depth-1"><a  target="" href="../page/tour.html" >Home Tour</a></li><li class=" depth-1"><a  target="" href="../page/space.html" >Home Space</a></li><li class=" depth-1"><a  target="" href="../page/car.html" >Home Car</a></li></ul></li><li class=" depth-0"><a  target="" href="../hotel.html" >Hotel <i class="caret fa fa-angle-down"></i></a><ul class="subnav children-menu menu-dropdown"><li class=" depth-1"><a  target="" href="../hotel.html" >Hotel List</a></li><li class=" depth-1"><a  target="" href="../hotel76a0.html?_layout=map" >Hotel Map</a></li><li class=" depth-1"><a  target="" href="../hotel/parian-holiday-villas.html" >Hotel Detail</a></li></ul></li><li class=" depth-0"><a  target="" href="../tour.html" >Tours <i class="caret fa fa-angle-down"></i></a><ul class="subnav children-menu menu-dropdown"><li class=" depth-1"><a  target="" href="../tour.html" >Tour List</a></li><li class=" depth-1"><a  target="" href="../tour76a0.html?_layout=map" >Tour Map</a></li><li class=" depth-1"><a  target="" href="../tour/paris-vacation-travel.html" >Tour Detail</a></li></ul></li><li class=" depth-0"><a  target="" href="../space.html" >Space <i class="caret fa fa-angle-down"></i></a><ul class="subnav children-menu menu-dropdown"><li class=" depth-1"><a  target="" href="../space.html" >Space List</a></li><li class=" depth-1"><a  target="" href="../space76a0.html?_layout=map" >Space Map</a></li><li class=" depth-1"><a  target="" href="../space/stay-greenwich-village.html" >Space Detail</a></li></ul></li><li class=" depth-0"><a  target="" href="../car.html" >Car <i class="caret fa fa-angle-down"></i></a><ul class="subnav children-menu menu-dropdown"><li class=" depth-1"><a  target="" href="../car.html" >Car List</a></li><li class=" depth-1"><a  target="" href="../car76a0.html?_layout=map" >Car Map</a></li><li class=" depth-1"><a  target="" href="../car/vinfast-lux-a20-plus.html" >Car Detail</a></li></ul></li><li class=" depth-0"><a  target="" href="../event.html" >Event <i class="caret fa fa-angle-down"></i></a><ul class="subnav children-menu menu-dropdown"><li class=" depth-1"><a  target="" href="../event.html" >Event List</a></li><li class=" depth-1"><a  target="" href="../event76a0.html?_layout=map" >Event Map</a></li><li class=" depth-1"><a  target="" href="../event/aspen-glade-weddings-events.html" >Event Detail</a></li></ul></li><li class=" depth-0"><a  target="" href="../flight.html" >Flight</a></li><li class=" depth-0"><a  target="" href="../boat.html" >Boat <i class="caret fa fa-angle-down"></i></a><ul class="subnav children-menu menu-dropdown"><li class=" depth-1"><a  target="" href="../boat.html" >Boat List</a></li><li class=" depth-1"><a  target="" href="../boat76a0.html?_layout=map" >Boat Map</a></li><li class=" depth-1"><a  target="" href="../boat/blue-moon-yc-300.html" >Boat Detail</a></li></ul></li><li class=" active  depth-0"><a  target="" href="#" >Pages <i class="caret fa fa-angle-down"></i></a><ul class="subnav children-menu menu-dropdown"><li class=" depth-1"><a  target="" href="../login.html" >Plan</a></li><li class=" depth-1"><a  target="" href="../news.html" >News List</a></li><li class=" depth-1"><a  target="" href="../news/morning-in-the-northern-sea.html" >News Detail</a></li><li class=" active depth-1"><a  target="" href="paris.html" >Location Detail</a></li><li class=" depth-1"><a  target="" href="../page/become-a-vendor.html" >Become a vendor</a></li><li class=" depth-1"><a  target="" href="../contact.html" >Contact</a></li></ul></li></ul>                </div>
+            </div>
+            <div class="header-right">
+                                <button class="bravo-more-menu">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="bravo-menu-mobile" style="display:none;">
+        <div class="user-profile">
+            <div class="b-close"><i class="icofont-scroll-left"></i></div>
+            <div class="avatar"></div>
+            <ul>
+                                    <li>
+                        <a href="#login" data-toggle="modal" data-target="#login" class="login">Login</a>
+                    </li>
+                                            <li>
+                            <a href="#register" data-toggle="modal" data-target="#register" class="signup">Sign Up</a>
+                        </li>
+                                                </ul>
+            <ul class="multi-lang">
+                <li class="dropdown">
+                                                        <a href="#" data-toggle="dropdown" class="is_login">
+                    JPY
+                    <i class="fa fa-angle-down"></i>
+                </a>
+                                                <ul class="dropdown-menu text-left width-auto">
+                                                <li>
+                        <a href="paris.html?set_currency=eur" class="is_login">
+                            EUR
+                        </a>
+                    </li>
+                                                                                            <li>
+                        <a href="paris.html?set_currency=usd" class="is_login">
+                            USD
+                        </a>
+                    </li>
+                                    </ul>
+    </li>
+            </ul>
+            <ul class="multi-lang">
+                <li class="dropdown">
+                                    <a href="#" data-toggle="dropdown" class="is_login">
+                                            <span class="flag-icon flag-icon-gb"></span>
+                                        English
+                    <i class="fa fa-angle-down"></i>
+                </a>
+                                                                                        <ul class="dropdown-menu text-left">
+                                                                            <li>
+                        <a href="../ja/location/paris.html?set_lang=ja" class="is_login">
+                                                            <span class="flag-icon flag-icon-jp"></span>
+                                                        Japanese
+                        </a>
+                    </li>
+                                                                <li>
+                        <a href="../egy/location/paris.html?set_lang=egy" class="is_login">
+                                                            <span class="flag-icon flag-icon-eg"></span>
+                                                        Egyptian
+                        </a>
+                    </li>
+                                                                <li>
+                        <a href="../pt_BR/location/paris.html?set_lang=pt_BR" class="is_login">
+                                                            <span class="flag-icon flag-icon-br"></span>
+                                                        Portugues
+                        </a>
+                    </li>
+                                    </ul>
+    </li>
+            </ul>
+        </div>
+        <div class="g-menu">
+            <ul class="main-menu menu-generated"><li class=" depth-0"><a  target="" href="../index.html" >Home <i class="caret fa fa-angle-down"></i></a><ul class="children-menu menu-dropdown"><li class=" depth-1"><a  target="" href="../index.html" >Home Page</a></li><li class=" depth-1"><a  target="" href="../page/home-page-v2.html" >Home Page v2</a></li><li class=" depth-1"><a  target="" href="../page/hotel.html" >Home Hotel</a></li><li class=" depth-1"><a  target="" href="../page/home-tour-agency.html" >Home Tour Agency</a></li><li class=" depth-1"><a  target="" href="../page/tour.html" >Home Tour</a></li><li class=" depth-1"><a  target="" href="../page/space.html" >Home Space</a></li><li class=" depth-1"><a  target="" href="../page/car.html" >Home Car</a></li></ul></li><li class=" depth-0"><a  target="" href="../hotel.html" >Hotel <i class="caret fa fa-angle-down"></i></a><ul class="children-menu menu-dropdown"><li class=" depth-1"><a  target="" href="../hotel.html" >Hotel List</a></li><li class=" depth-1"><a  target="" href="../hotel76a0.html?_layout=map" >Hotel Map</a></li><li class=" depth-1"><a  target="" href="../hotel/parian-holiday-villas.html" >Hotel Detail</a></li></ul></li><li class=" depth-0"><a  target="" href="../tour.html" >Tours <i class="caret fa fa-angle-down"></i></a><ul class="children-menu menu-dropdown"><li class=" depth-1"><a  target="" href="../tour.html" >Tour List</a></li><li class=" depth-1"><a  target="" href="../tour76a0.html?_layout=map" >Tour Map</a></li><li class=" depth-1"><a  target="" href="../tour/paris-vacation-travel.html" >Tour Detail</a></li></ul></li><li class=" depth-0"><a  target="" href="../space.html" >Space <i class="caret fa fa-angle-down"></i></a><ul class="children-menu menu-dropdown"><li class=" depth-1"><a  target="" href="../space.html" >Space List</a></li><li class=" depth-1"><a  target="" href="../space76a0.html?_layout=map" >Space Map</a></li><li class=" depth-1"><a  target="" href="../space/stay-greenwich-village.html" >Space Detail</a></li></ul></li><li class=" depth-0"><a  target="" href="../car.html" >Car <i class="caret fa fa-angle-down"></i></a><ul class="children-menu menu-dropdown"><li class=" depth-1"><a  target="" href="../car.html" >Car List</a></li><li class=" depth-1"><a  target="" href="../car76a0.html?_layout=map" >Car Map</a></li><li class=" depth-1"><a  target="" href="../car/vinfast-lux-a20-plus.html" >Car Detail</a></li></ul></li><li class=" depth-0"><a  target="" href="../event.html" >Event <i class="caret fa fa-angle-down"></i></a><ul class="children-menu menu-dropdown"><li class=" depth-1"><a  target="" href="../event.html" >Event List</a></li><li class=" depth-1"><a  target="" href="../event76a0.html?_layout=map" >Event Map</a></li><li class=" depth-1"><a  target="" href="../event/aspen-glade-weddings-events.html" >Event Detail</a></li></ul></li><li class=" depth-0"><a  target="" href="../flight.html" >Flight</a></li><li class=" depth-0"><a  target="" href="../boat.html" >Boat <i class="caret fa fa-angle-down"></i></a><ul class="children-menu menu-dropdown"><li class=" depth-1"><a  target="" href="../boat.html" >Boat List</a></li><li class=" depth-1"><a  target="" href="../boat76a0.html?_layout=map" >Boat Map</a></li><li class=" depth-1"><a  target="" href="../boat/blue-moon-yc-300.html" >Boat Detail</a></li></ul></li><li class=" active  depth-0"><a  target="" href="#" >Pages <i class="caret fa fa-angle-down"></i></a><ul class="children-menu menu-dropdown"><li class=" depth-1"><a  target="" href="../login.html" >Plan</a></li><li class=" depth-1"><a  target="" href="../news.html" >News List</a></li><li class=" depth-1"><a  target="" href="../news/morning-in-the-northern-sea.html" >News Detail</a></li><li class=" active depth-1"><a  target="" href="paris.html" >Location Detail</a></li><li class=" depth-1"><a  target="" href="../page/become-a-vendor.html" >Become a vendor</a></li><li class=" depth-1"><a  target="" href="../contact.html" >Contact</a></li></ul></li></ul>        </div>
+    </div>
+</div>
+        
+            <div class="bravo_detail_location">
+        <div class="bravo_banner" style="background-image: linear-gradient(0deg,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.2)),url('../uploads/demo/location/banner-detail/banner-location-1.jpg') !important"></div>
+
+        <div class="bravo_content">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-md-12 col-lg-8">
+                        <h1 class="title-location">Paris</h1>
+                        <div class="g-overview">
+        <div class="description">
+            New York, a city that doesnt sleep, as Frank Sinatra sang. The Big Apple is one of the largest cities in the United States and one of the most popular in the whole country and the world. Millions of tourists visit it every year attracted by its various iconic symbols and its wide range of leisure and cultural offer. New York is the birth place of new trends and developments in many fields such as art, gastronomy, technology,...        </div>
+    </div>
+                    </div>
+                    <div class="col-md-12 col-lg-4">
+                                                    <div class="g-thumbnail m-3">
+                                <img data-src="https://sandbox.bookingcore.co/uploads/demo/location/location-3.jpg" class="img-fluid lazy" alt="Paris">
+                            </div>
+                                            </div>
+                </div>
+                                                    <div class="g-location-module py-5 border-top border-bottom">
+                        <div class="row">
+                            <div class="col-12 col-lg-5">
+                                <h3>Explore the place</h3>
+                            </div>
+                            <div class="col-12 col-lg-7">
+                                <ul class="location-module-nav nav nav-pills justify-content-lg-end">
+                                                                                                                                                                                                    <li>
+                                                <a class="active" href="#module-hotel" data-toggle="tab">Hotel</a>
+                                            </li>
+                                                                                                                                                                                                                                                    <li>
+                                                <a class="" href="#module-space" data-toggle="tab">Space</a>
+                                            </li>
+                                                                                                                                                                                                                                                    <li>
+                                                <a class="" href="#module-car" data-toggle="tab">Car</a>
+                                            </li>
+                                                                                                                                                                                                                                                    <li>
+                                                <a class="" href="#module-event" data-toggle="tab">Event</a>
+                                            </li>
+                                                                                                                                                                                                                                                    <li>
+                                                <a class="" href="#module-tour" data-toggle="tab">Tour</a>
+                                            </li>
+                                                                                                                                                                                                                                                                                            <li>
+                                                <a class="" href="#module-boat" data-toggle="tab">Boat</a>
+                                            </li>
+                                                                                                                                                        </ul>
+                            </div>
+                        </div>
+                        <div class="tab-content clearfix py-5">
+                                                                                                                                                                                                                                    <div class="tab-pane active" id="module-hotel">
+                                            <div class="container">
+    <div class="bravo-list-hotel layout_normal">
+                        <div class="list-item">
+                            <div class="row">
+                                            <div class="col-lg-3 col-md-6">
+                            <div class="item-loop ">
+        <div class="thumb-image ">
+        <a  href="../hotel/hotel-stanford.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/space/space-5.jpg  alt='Hotel Stanford'>
+                                    </a>
+                    <div class="star-rate">
+                <div class="list-star">
+                    <ul class="booking-item-rating-stars">
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                            </ul>
+                </div>
+            </div>
+                <div class="service-wishlist " data-id="1" data-type="hotel">
+            <i class="fa fa-heart"></i>
+        </div>
+    </div>
+    <div class="item-title">
+        <a  href="../hotel/hotel-stanford.html">
+                            Hotel Stanford
+        </a>
+            </div>
+    <div class="location">
+                                Paris
+            </div>
+            <div class="service-review">
+        <span class="rate">
+             4.5/5  <span class="rate-text">Excellent</span>
+        </span>
+        <span class="review">
+                             4 Reviews
+                    </span>
+    </div>
+        <div class="info">
+        <div class="g-price">
+            <div class="prefix">
+                <span class="fr_text">from</span>
+            </div>
+            <div class="price">
+                <span class="text-price">32.711 ¥ <span class="unit">/night</span></span>
+            </div>
+        </div>
+    </div>
+</div>
+                        </div>
+                                            <div class="col-lg-3 col-md-6">
+                            <div class="item-loop ">
+        <div class="thumb-image ">
+        <a  href="../hotel/hotel-wbf-homachi.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/space/space-6.jpg  alt='Hotel WBF Hommachi'>
+                                    </a>
+                    <div class="star-rate">
+                <div class="list-star">
+                    <ul class="booking-item-rating-stars">
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                            </ul>
+                </div>
+            </div>
+                <div class="service-wishlist " data-id="2" data-type="hotel">
+            <i class="fa fa-heart"></i>
+        </div>
+    </div>
+    <div class="item-title">
+        <a  href="../hotel/hotel-wbf-homachi.html">
+                            Hotel WBF Hommachi
+        </a>
+            </div>
+    <div class="location">
+                                Paris
+            </div>
+            <div class="service-review">
+        <span class="rate">
+             4.5/5  <span class="rate-text">Excellent</span>
+        </span>
+        <span class="review">
+                             4 Reviews
+                    </span>
+    </div>
+        <div class="info">
+        <div class="g-price">
+            <div class="prefix">
+                <span class="fr_text">from</span>
+            </div>
+            <div class="price">
+                <span class="text-price">38.163 ¥ <span class="unit">/night</span></span>
+            </div>
+        </div>
+    </div>
+</div>
+                        </div>
+                                            <div class="col-lg-3 col-md-6">
+                            <div class="item-loop ">
+        <div class="thumb-image ">
+        <a  href="../hotel/castello-casole-hotel.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/space/space-7.jpg  alt='Castello Casole Hotel'>
+                                    </a>
+                    <div class="star-rate">
+                <div class="list-star">
+                    <ul class="booking-item-rating-stars">
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                            </ul>
+                </div>
+            </div>
+                <div class="service-wishlist " data-id="3" data-type="hotel">
+            <i class="fa fa-heart"></i>
+        </div>
+    </div>
+    <div class="item-title">
+        <a  href="../hotel/castello-casole-hotel.html">
+                            Castello Casole Hotel
+        </a>
+            </div>
+    <div class="location">
+                                Paris
+            </div>
+            <div class="service-review">
+        <span class="rate">
+             4.7/5  <span class="rate-text">Excellent</span>
+        </span>
+        <span class="review">
+                             3 Reviews
+                    </span>
+    </div>
+        <div class="info">
+        <div class="g-price">
+            <div class="prefix">
+                <span class="fr_text">from</span>
+            </div>
+            <div class="price">
+                <span class="text-price">38.163 ¥ <span class="unit">/night</span></span>
+            </div>
+        </div>
+    </div>
+</div>
+                        </div>
+                                            <div class="col-lg-3 col-md-6">
+                            <div class="item-loop ">
+        <div class="thumb-image ">
+        <a  href="../hotel/redac-gateway-hotel.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/space/space-8.jpg  alt='Redac Gateway Hotel'>
+                                    </a>
+                    <div class="star-rate">
+                <div class="list-star">
+                    <ul class="booking-item-rating-stars">
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                            </ul>
+                </div>
+            </div>
+                <div class="service-wishlist " data-id="4" data-type="hotel">
+            <i class="fa fa-heart"></i>
+        </div>
+    </div>
+    <div class="item-title">
+        <a  href="../hotel/redac-gateway-hotel.html">
+                            Redac Gateway Hotel
+        </a>
+            </div>
+    <div class="location">
+                                Paris
+            </div>
+            <div class="service-review">
+        <span class="rate">
+             4.5/5  <span class="rate-text">Excellent</span>
+        </span>
+        <span class="review">
+                             4 Reviews
+                    </span>
+    </div>
+        <div class="info">
+        <div class="g-price">
+            <div class="prefix">
+                <span class="fr_text">from</span>
+            </div>
+            <div class="price">
+                <span class="text-price">54.519 ¥ <span class="unit">/night</span></span>
+            </div>
+        </div>
+    </div>
+</div>
+                        </div>
+                                            <div class="col-lg-3 col-md-6">
+                            <div class="item-loop ">
+            <div class="featured">
+            Featured
+        </div>
+        <div class="thumb-image ">
+        <a  href="../hotel/parian-holiday-villas.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/space/space-13.jpg  alt='Parian Holiday Villas'>
+                                    </a>
+                    <div class="star-rate">
+                <div class="list-star">
+                    <ul class="booking-item-rating-stars">
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                            </ul>
+                </div>
+            </div>
+                <div class="service-wishlist " data-id="9" data-type="hotel">
+            <i class="fa fa-heart"></i>
+        </div>
+    </div>
+    <div class="item-title">
+        <a  href="../hotel/parian-holiday-villas.html">
+                            Parian Holiday Villas
+        </a>
+            </div>
+    <div class="location">
+                                Paris
+            </div>
+            <div class="service-review">
+        <span class="rate">
+             5.0/5  <span class="rate-text">Excellent</span>
+        </span>
+        <span class="review">
+                             3 Reviews
+                    </span>
+    </div>
+        <div class="info">
+        <div class="g-price">
+            <div class="prefix">
+                <span class="fr_text">from</span>
+            </div>
+            <div class="price">
+                <span class="text-price">59.971 ¥ <span class="unit">/night</span></span>
+            </div>
+        </div>
+    </div>
+</div>
+                        </div>
+                                            <div class="col-lg-3 col-md-6">
+                            <div class="item-loop ">
+        <div class="thumb-image ">
+        <a  href="../hotel/the-may-fair-hotel.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/space/space-5.jpg  alt='The May Fair Hotel'>
+                                    </a>
+                    <div class="star-rate">
+                <div class="list-star">
+                    <ul class="booking-item-rating-stars">
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                                    <li><i class="fa fa-star"></i></li>
+                                            </ul>
+                </div>
+            </div>
+                <div class="service-wishlist " data-id="11" data-type="hotel">
+            <i class="fa fa-heart"></i>
+        </div>
+    </div>
+    <div class="item-title">
+        <a  href="../hotel/the-may-fair-hotel.html">
+                            The May Fair Hotel
+        </a>
+            </div>
+    <div class="location">
+                                Paris
+            </div>
+            <div class="service-review">
+        <span class="rate">
+             4.4/5  <span class="rate-text">Very Good</span>
+        </span>
+        <span class="review">
+                             5 Reviews
+                    </span>
+    </div>
+        <div class="info">
+        <div class="g-price">
+            <div class="prefix">
+                <span class="fr_text">from</span>
+            </div>
+            <div class="price">
+                <span class="text-price">59.971 ¥ <span class="unit">/night</span></span>
+            </div>
+        </div>
+    </div>
+</div>
+                        </div>
+                                    </div>
+                                </div>
+    </div>
+</div>                                            <p class="text-center"><a class="btn btn-primary btn-search" href="../hotel4335.html?location_id=1">View More</a></p>
+                                        </div>
+                                                                                                                                                                                                                                                                                                                    <div class="tab-pane " id="module-space">
+                                            <div class="container">
+    <div class="bravo-list-space layout_normal">
+                        <div class="list-item">
+                            <div class="row">
+                                            <div class="col-lg-3 col-md-6">
+                            <div class="item-loop item-loop-wrap ">
+            <div class="featured">
+            Featured
+        </div>
+        <div class="thumb-image ">
+        <a  href="../space/duplex-greenwich.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/space/space-5.jpg  alt='DUPLEX GREENWICH'>
+                                    </a>
+        <div class="price-wrapper">
+            <div class="price">
+                <span class="onsale"></span>
+                <span class="text-price">
+                    23.988 ¥
+                                            <span class="unit">/day</span>
+                                    </span>
+            </div>
+        </div>
+        <div class="service-wishlist " data-id="5" data-type="space">
+            <i class="fa fa-heart"></i>
+        </div>
+    </div>
+    <div class="item-title">
+        <a  href="../space/duplex-greenwich.html">
+                            <i class="fa fa-bolt d-none"></i>
+                            DUPLEX GREENWICH
+        </a>
+            </div>
+    <div class="location">
+                                Paris
+            </div>
+            <div class="service-review">
+        <span class="rate">
+             5.0/5  <span class="rate-text">Excellent</span>
+        </span>
+        <span class="review">
+                             1 Review
+                    </span>
+    </div>
+        <div class="amenities">
+                    <span class="amenity total" data-toggle="tooltip"  title="No. People">
+                <i class="input-icon field-icon icofont-people  "></i> 7
+            </span>
+                            <span class="amenity bed" data-toggle="tooltip" title="No. Bed">
+                <i class="input-icon field-icon icofont-hotel"></i> 9
+            </span>
+                            <span class="amenity bath" data-toggle="tooltip" title="No. Bathroom" >
+                <i class="input-icon field-icon icofont-bathtub"></i> 2
+            </span>
+                            <span class="amenity size" data-toggle="tooltip" title="Square" >
+                <i class="input-icon field-icon icofont-ruler-compass-alt"></i> 130 sqft
+            </span>
+            </div>
+</div>
+                        </div>
+                                            <div class="col-lg-3 col-md-6">
+                            <div class="item-loop item-loop-wrap ">
+        <div class="thumb-image ">
+        <a  href="../space/the-meatpacking-suites.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/space/space-6.jpg  alt='THE MEATPACKING SUITES'>
+                                    </a>
+        <div class="price-wrapper">
+            <div class="price">
+                <span class="onsale"></span>
+                <span class="text-price">
+                    34.892 ¥
+                                            <span class="unit">/day</span>
+                                    </span>
+            </div>
+        </div>
+        <div class="service-wishlist " data-id="6" data-type="space">
+            <i class="fa fa-heart"></i>
+        </div>
+    </div>
+    <div class="item-title">
+        <a  href="../space/the-meatpacking-suites.html">
+                            <i class="fa fa-bolt d-none"></i>
+                            THE MEATPACKING SUITES
+        </a>
+            </div>
+    <div class="location">
+                                Paris
+            </div>
+            <div class="service-review">
+        <span class="rate">
+             4.7/5  <span class="rate-text">Excellent</span>
+        </span>
+        <span class="review">
+                             3 Reviews
+                    </span>
+    </div>
+        <div class="amenities">
+                    <span class="amenity total" data-toggle="tooltip"  title="No. People">
+                <i class="input-icon field-icon icofont-people  "></i> 9
+            </span>
+                            <span class="amenity bed" data-toggle="tooltip" title="No. Bed">
+                <i class="input-icon field-icon icofont-hotel"></i> 8
+            </span>
+                            <span class="amenity bath" data-toggle="tooltip" title="No. Bathroom" >
+                <i class="input-icon field-icon icofont-bathtub"></i> 8
+            </span>
+                            <span class="amenity size" data-toggle="tooltip" title="Square" >
+                <i class="input-icon field-icon icofont-ruler-compass-alt"></i> 121 sqft
+            </span>
+            </div>
+</div>
+                        </div>
+                                            <div class="col-lg-3 col-md-6">
+                            <div class="item-loop item-loop-wrap ">
+        <div class="thumb-image ">
+        <a  href="../space/east-village.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/space/space-7.jpg  alt='EAST VILLAGE'>
+                                    </a>
+        <div class="price-wrapper">
+            <div class="price">
+                <span class="onsale">32.711 ¥</span>
+                <span class="text-price">
+                    28.350 ¥
+                                            <span class="unit">/day</span>
+                                    </span>
+            </div>
+        </div>
+        <div class="service-wishlist " data-id="7" data-type="space">
+            <i class="fa fa-heart"></i>
+        </div>
+    </div>
+    <div class="item-title">
+        <a  href="../space/east-village.html">
+                            <i class="fa fa-bolt d-none"></i>
+                            EAST VILLAGE
+        </a>
+                    <div class="sale_info">13%</div>
+            </div>
+    <div class="location">
+                                Paris
+            </div>
+            <div class="service-review">
+        <span class="rate">
+             4.0/5  <span class="rate-text">Very Good</span>
+        </span>
+        <span class="review">
+                             4 Reviews
+                    </span>
+    </div>
+        <div class="amenities">
+                    <span class="amenity total" data-toggle="tooltip"  title="No. People">
+                <i class="input-icon field-icon icofont-people  "></i> 6
+            </span>
+                            <span class="amenity bed" data-toggle="tooltip" title="No. Bed">
+                <i class="input-icon field-icon icofont-hotel"></i> 7
+            </span>
+                            <span class="amenity bath" data-toggle="tooltip" title="No. Bathroom" >
+                <i class="input-icon field-icon icofont-bathtub"></i> 3
+            </span>
+                            <span class="amenity size" data-toggle="tooltip" title="Square" >
+                <i class="input-icon field-icon icofont-ruler-compass-alt"></i> 105 sqft
+            </span>
+            </div>
+</div>
+                        </div>
+                                            <div class="col-lg-3 col-md-6">
+                            <div class="item-loop item-loop-wrap ">
+        <div class="thumb-image ">
+        <a  href="../space/paris-greenwich-villa.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/space/space-8.jpg  alt='PARIS GREENWICH VILLA'>
+                                    </a>
+        <div class="price-wrapper">
+            <div class="price">
+                <span class="onsale"></span>
+                <span class="text-price">
+                    54.519 ¥
+                                            <span class="unit">/day</span>
+                                    </span>
+            </div>
+        </div>
+        <div class="service-wishlist " data-id="8" data-type="space">
+            <i class="fa fa-heart"></i>
+        </div>
+    </div>
+    <div class="item-title">
+        <a  href="../space/paris-greenwich-villa.html">
+                            PARIS GREENWICH VILLA
+        </a>
+            </div>
+    <div class="location">
+                                Paris
+            </div>
+            <div class="service-review">
+        <span class="rate">
+             5.0/5  <span class="rate-text">Excellent</span>
+        </span>
+        <span class="review">
+                             1 Review
+                    </span>
+    </div>
+        <div class="amenities">
+                    <span class="amenity total" data-toggle="tooltip"  title="No. People">
+                <i class="input-icon field-icon icofont-people  "></i> 8
+            </span>
+                            <span class="amenity bed" data-toggle="tooltip" title="No. Bed">
+                <i class="input-icon field-icon icofont-hotel"></i> 3
+            </span>
+                            <span class="amenity bath" data-toggle="tooltip" title="No. Bathroom" >
+                <i class="input-icon field-icon icofont-bathtub"></i> 3
+            </span>
+                            <span class="amenity size" data-toggle="tooltip" title="Square" >
+                <i class="input-icon field-icon icofont-ruler-compass-alt"></i> 139 sqft
+            </span>
+            </div>
+</div>
+                        </div>
+                                            <div class="col-lg-3 col-md-6">
+                            <div class="item-loop item-loop-wrap ">
+        <div class="thumb-image ">
+        <a  href="../space/luxury-single.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/space/space-9.jpg  alt='LUXURY SINGLE'>
+                                    </a>
+        <div class="price-wrapper">
+            <div class="price">
+                <span class="onsale">43.615 ¥</span>
+                <span class="text-price">
+                    38.163 ¥
+                                            <span class="unit">/day</span>
+                                    </span>
+            </div>
+        </div>
+        <div class="service-wishlist " data-id="9" data-type="space">
+            <i class="fa fa-heart"></i>
+        </div>
+    </div>
+    <div class="item-title">
+        <a  href="../space/luxury-single.html">
+                            LUXURY SINGLE
+        </a>
+                    <div class="sale_info">12%</div>
+            </div>
+    <div class="location">
+                                Paris
+            </div>
+            <div class="service-review">
+        <span class="rate">
+             5.0/5  <span class="rate-text">Excellent</span>
+        </span>
+        <span class="review">
+                             3 Reviews
+                    </span>
+    </div>
+        <div class="amenities">
+                    <span class="amenity total" data-toggle="tooltip"  title="No. People">
+                <i class="input-icon field-icon icofont-people  "></i> 5
+            </span>
+                            <span class="amenity bed" data-toggle="tooltip" title="No. Bed">
+                <i class="input-icon field-icon icofont-hotel"></i> 8
+            </span>
+                            <span class="amenity bath" data-toggle="tooltip" title="No. Bathroom" >
+                <i class="input-icon field-icon icofont-bathtub"></i> 6
+            </span>
+                            <span class="amenity size" data-toggle="tooltip" title="Square" >
+                <i class="input-icon field-icon icofont-ruler-compass-alt"></i> 177 sqft
+            </span>
+            </div>
+</div>
+                        </div>
+                                            <div class="col-lg-3 col-md-6">
+                            <div class="item-loop item-loop-wrap ">
+            <div class="featured">
+            Featured
+        </div>
+        <div class="thumb-image ">
+        <a  href="../space/lily-dale-village.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/space/space-10.jpg  alt='LILY DALE VILLAGE'>
+                                    </a>
+        <div class="price-wrapper">
+            <div class="price">
+                <span class="onsale"></span>
+                <span class="text-price">
+                    27.259 ¥
+                                            <span class="unit">/day</span>
+                                    </span>
+            </div>
+        </div>
+        <div class="service-wishlist " data-id="10" data-type="space">
+            <i class="fa fa-heart"></i>
+        </div>
+    </div>
+    <div class="item-title">
+        <a  href="../space/lily-dale-village.html">
+                            LILY DALE VILLAGE
+        </a>
+            </div>
+    <div class="location">
+                                Paris
+            </div>
+            <div class="service-review">
+        <span class="rate">
+             4.5/5  <span class="rate-text">Excellent</span>
+        </span>
+        <span class="review">
+                             2 Reviews
+                    </span>
+    </div>
+        <div class="amenities">
+                    <span class="amenity total" data-toggle="tooltip"  title="No. People">
+                <i class="input-icon field-icon icofont-people  "></i> 10
+            </span>
+                            <span class="amenity bed" data-toggle="tooltip" title="No. Bed">
+                <i class="input-icon field-icon icofont-hotel"></i> 8
+            </span>
+                            <span class="amenity bath" data-toggle="tooltip" title="No. Bathroom" >
+                <i class="input-icon field-icon icofont-bathtub"></i> 10
+            </span>
+                            <span class="amenity size" data-toggle="tooltip" title="Square" >
+                <i class="input-icon field-icon icofont-ruler-compass-alt"></i> 128 sqft
+            </span>
+            </div>
+</div>
+                        </div>
+                                            <div class="col-lg-3 col-md-6">
+                            <div class="item-loop item-loop-wrap ">
+            <div class="featured">
+            Featured
+        </div>
+        <div class="thumb-image ">
+        <a  href="../space/stay-greenwich-village.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/space/space-11.jpg  alt='STAY GREENWICH VILLAGE'>
+                                    </a>
+        <div class="price-wrapper">
+            <div class="price">
+                <span class="onsale">32.711 ¥</span>
+                <span class="text-price">
+                    16.356 ¥
+                                            <span class="unit">/day</span>
+                                    </span>
+            </div>
+        </div>
+        <div class="service-wishlist " data-id="11" data-type="space">
+            <i class="fa fa-heart"></i>
+        </div>
+    </div>
+    <div class="item-title">
+        <a  href="../space/stay-greenwich-village.html">
+                            <i class="fa fa-bolt d-none"></i>
+                            STAY GREENWICH VILLAGE
+        </a>
+                    <div class="sale_info">50%</div>
+            </div>
+    <div class="location">
+                                Paris
+            </div>
+            <div class="service-review">
+        <span class="rate">
+             4.7/5  <span class="rate-text">Excellent</span>
+        </span>
+        <span class="review">
+                             3 Reviews
+                    </span>
+    </div>
+        <div class="amenities">
+                    <span class="amenity total" data-toggle="tooltip"  title="No. People">
+                <i class="input-icon field-icon icofont-people  "></i> 6
+            </span>
+                            <span class="amenity bed" data-toggle="tooltip" title="No. Bed">
+                <i class="input-icon field-icon icofont-hotel"></i> 4
+            </span>
+                            <span class="amenity bath" data-toggle="tooltip" title="No. Bathroom" >
+                <i class="input-icon field-icon icofont-bathtub"></i> 10
+            </span>
+                            <span class="amenity size" data-toggle="tooltip" title="Square" >
+                <i class="input-icon field-icon icofont-ruler-compass-alt"></i> 119 sqft
+            </span>
+            </div>
+</div>
+                        </div>
+                                    </div>
+                                </div>
+    </div>
+</div>                                            <p class="text-center"><a class="btn btn-primary btn-search" href="../space4335.html?location_id=1">View More</a></p>
+                                        </div>
+                                                                                                                                                                                                                                                                                                                    <div class="tab-pane " id="module-car">
+                                            <div class="container">
+    <div class="bravo-list-car layout_normal">
+                        <div class="list-item">
+                            <div class="row">
+                                            <div class="col-lg-3 col-md-6">
+                            <div class="item-loop item-loop-wrap ">
+            <div class="featured">
+            Featured
+        </div>
+        <div class="thumb-image ">
+        <a  href="../car/bmw-x6-facelift.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/car/car-1.jpg  alt='BMW-X6-facelift'>
+                                    </a>
+        <div class="service-wishlist " data-id="1" data-type="car">
+            <i class="fa fa-heart-o"></i>
+        </div>
+    </div>
+    <div class="item-title">
+        <a  href="../car/bmw-x6-facelift.html">
+                            BMW-X6-facelift
+        </a>
+                    <div class="sale_info">41%</div>
+            </div>
+    <div class="location">
+                                Paris
+            </div>
+    <div class="amenities">
+                    <span class="amenity total" data-toggle="tooltip"  title="Passenger">
+                <i class="input-icon field-icon icon-passenger  "></i>
+                <span class="text">
+                    9
+                </span>
+            </span>
+                            <span class="amenity bed" data-toggle="tooltip" title="Gear Shift">
+                <i class="input-icon field-icon icon-gear"></i>
+                <span class="text">
+                    Auto
+                </span>
+            </span>
+                            <span class="amenity bath" data-toggle="tooltip" title="Baggage" >
+                <i class="input-icon field-icon icon-baggage"></i>
+                <span class="text">
+                    10
+                </span>
+            </span>
+                            <span class="amenity size" data-toggle="tooltip" title="Door" >
+                <i class="input-icon field-icon icon-door"></i>
+                <span class="text">
+                    4
+                </span>
+            </span>
+            </div>
+    <div class="info">
+        <div class="g-price">
+            <div class="prefix">
+                <span class="fr_text">from</span>
+            </div>
+            <div class="price">
+                <span class="onsale">54.519 ¥</span>
+                <span class="text-price">31.839 ¥ <span class="unit">/day</span></span>
+            </div>
+        </div>
+    </div>
+</div>
+                        </div>
+                                            <div class="col-lg-3 col-md-6">
+                            <div class="item-loop item-loop-wrap ">
+        <div class="thumb-image ">
+        <a  href="../car/2019-honda-clarityt-1.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/car/car-2.jpg  alt='2019 Honda Clarity'>
+                                    </a>
+        <div class="service-wishlist " data-id="2" data-type="car">
+            <i class="fa fa-heart-o"></i>
+        </div>
+    </div>
+    <div class="item-title">
+        <a  href="../car/2019-honda-clarityt-1.html">
+                            2019 Honda Clarity
+        </a>
+            </div>
+    <div class="location">
+                                Paris
+            </div>
+    <div class="amenities">
+                    <span class="amenity total" data-toggle="tooltip"  title="Passenger">
+                <i class="input-icon field-icon icon-passenger  "></i>
+                <span class="text">
+                    7
+                </span>
+            </span>
+                            <span class="amenity bed" data-toggle="tooltip" title="Gear Shift">
+                <i class="input-icon field-icon icon-gear"></i>
+                <span class="text">
+                    Auto
+                </span>
+            </span>
+                            <span class="amenity bath" data-toggle="tooltip" title="Baggage" >
+                <i class="input-icon field-icon icon-baggage"></i>
+                <span class="text">
+                    3
+                </span>
+            </span>
+                            <span class="amenity size" data-toggle="tooltip" title="Door" >
+                <i class="input-icon field-icon icon-door"></i>
+                <span class="text">
+                    4
+                </span>
+            </span>
+            </div>
+    <div class="info">
+        <div class="g-price">
+            <div class="prefix">
+                <span class="fr_text">from</span>
+            </div>
+            <div class="price">
+                <span class="onsale"></span>
+                <span class="text-price">32.711 ¥ <span class="unit">/day</span></span>
+            </div>
+        </div>
+    </div>
+</div>
+                        </div>
+                                            <div class="col-lg-3 col-md-6">
+                            <div class="item-loop item-loop-wrap ">
+        <div class="thumb-image ">
+        <a  href="../car/2019-bmw-m6-gran-coupe.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/car/car-3.jpg  alt='2019 BMW M6 Gran Coupe'>
+                                    </a>
+        <div class="service-wishlist " data-id="4" data-type="car">
+            <i class="fa fa-heart-o"></i>
+        </div>
+    </div>
+    <div class="item-title">
+        <a  href="../car/2019-bmw-m6-gran-coupe.html">
+                            <i class="fa fa-bolt d-none"></i>
+                            2019 BMW M6 Gran Coupe
+        </a>
+            </div>
+    <div class="location">
+                                Paris
+            </div>
+    <div class="amenities">
+                    <span class="amenity total" data-toggle="tooltip"  title="Passenger">
+                <i class="input-icon field-icon icon-passenger  "></i>
+                <span class="text">
+                    10
+                </span>
+            </span>
+                            <span class="amenity bed" data-toggle="tooltip" title="Gear Shift">
+                <i class="input-icon field-icon icon-gear"></i>
+                <span class="text">
+                    Auto
+                </span>
+            </span>
+                            <span class="amenity bath" data-toggle="tooltip" title="Baggage" >
+                <i class="input-icon field-icon icon-baggage"></i>
+                <span class="text">
+                    10
+                </span>
+            </span>
+                            <span class="amenity size" data-toggle="tooltip" title="Door" >
+                <i class="input-icon field-icon icon-door"></i>
+                <span class="text">
+                    4
+                </span>
+            </span>
+            </div>
+    <div class="info">
+        <div class="g-price">
+            <div class="prefix">
+                <span class="fr_text">from</span>
+            </div>
+            <div class="price">
+                <span class="onsale"></span>
+                <span class="text-price">32.711 ¥ <span class="unit">/day</span></span>
+            </div>
+        </div>
+    </div>
+</div>
+                        </div>
+                                            <div class="col-lg-3 col-md-6">
+                            <div class="item-loop item-loop-wrap ">
+            <div class="featured">
+            Featured
+        </div>
+        <div class="thumb-image ">
+        <a  href="../car/vinfast-fadil-plus.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/car/car-5.jpg  alt='Vinfast Fadil Plus'>
+                                    </a>
+        <div class="service-wishlist " data-id="6" data-type="car">
+            <i class="fa fa-heart-o"></i>
+        </div>
+    </div>
+    <div class="item-title">
+        <a  href="../car/vinfast-fadil-plus.html">
+                            <i class="fa fa-bolt d-none"></i>
+                            Vinfast Fadil Plus
+        </a>
+            </div>
+    <div class="location">
+                                Paris
+            </div>
+    <div class="amenities">
+                    <span class="amenity total" data-toggle="tooltip"  title="Passenger">
+                <i class="input-icon field-icon icon-passenger  "></i>
+                <span class="text">
+                    9
+                </span>
+            </span>
+                            <span class="amenity bed" data-toggle="tooltip" title="Gear Shift">
+                <i class="input-icon field-icon icon-gear"></i>
+                <span class="text">
+                    Auto
+                </span>
+            </span>
+                            <span class="amenity bath" data-toggle="tooltip" title="Baggage" >
+                <i class="input-icon field-icon icon-baggage"></i>
+                <span class="text">
+                    8
+                </span>
+            </span>
+                            <span class="amenity size" data-toggle="tooltip" title="Door" >
+                <i class="input-icon field-icon icon-door"></i>
+                <span class="text">
+                    4
+                </span>
+            </span>
+            </div>
+    <div class="info">
+        <div class="g-price">
+            <div class="prefix">
+                <span class="fr_text">from</span>
+            </div>
+            <div class="price">
+                <span class="onsale"></span>
+                <span class="text-price">43.615 ¥ <span class="unit">/day</span></span>
+            </div>
+        </div>
+    </div>
+</div>
+                        </div>
+                                            <div class="col-lg-3 col-md-6">
+                            <div class="item-loop item-loop-wrap ">
+        <div class="thumb-image ">
+        <a  href="../car/mercedes-benz.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/car/car-6.jpg  alt='Mercedes Benz'>
+                                    </a>
+        <div class="service-wishlist " data-id="7" data-type="car">
+            <i class="fa fa-heart-o"></i>
+        </div>
+    </div>
+    <div class="item-title">
+        <a  href="../car/mercedes-benz.html">
+                            <i class="fa fa-bolt d-none"></i>
+                            Mercedes Benz
+        </a>
+            </div>
+    <div class="location">
+                                Paris
+            </div>
+    <div class="amenities">
+                    <span class="amenity total" data-toggle="tooltip"  title="Passenger">
+                <i class="input-icon field-icon icon-passenger  "></i>
+                <span class="text">
+                    5
+                </span>
+            </span>
+                            <span class="amenity bed" data-toggle="tooltip" title="Gear Shift">
+                <i class="input-icon field-icon icon-gear"></i>
+                <span class="text">
+                    Auto
+                </span>
+            </span>
+                            <span class="amenity bath" data-toggle="tooltip" title="Baggage" >
+                <i class="input-icon field-icon icon-baggage"></i>
+                <span class="text">
+                    3
+                </span>
+            </span>
+                            <span class="amenity size" data-toggle="tooltip" title="Door" >
+                <i class="input-icon field-icon icon-door"></i>
+                <span class="text">
+                    4
+                </span>
+            </span>
+            </div>
+    <div class="info">
+        <div class="g-price">
+            <div class="prefix">
+                <span class="fr_text">from</span>
+            </div>
+            <div class="price">
+                <span class="onsale"></span>
+                <span class="text-price">21.808 ¥ <span class="unit">/day</span></span>
+            </div>
+        </div>
+    </div>
+</div>
+                        </div>
+                                            <div class="col-lg-3 col-md-6">
+                            <div class="item-loop item-loop-wrap ">
+            <div class="featured">
+            Featured
+        </div>
+        <div class="thumb-image ">
+        <a  href="../car/vinfast-lux-sa20-plus.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/car/car-7.jpg  alt='Vinfast Lux SA2.0 Plus'>
+                                    </a>
+        <div class="service-wishlist " data-id="8" data-type="car">
+            <i class="fa fa-heart-o"></i>
+        </div>
+    </div>
+    <div class="item-title">
+        <a  href="../car/vinfast-lux-sa20-plus.html">
+                            <i class="fa fa-bolt d-none"></i>
+                            Vinfast Lux SA2.0 Plus
+        </a>
+            </div>
+    <div class="location">
+                                Paris
+            </div>
+    <div class="amenities">
+                    <span class="amenity total" data-toggle="tooltip"  title="Passenger">
+                <i class="input-icon field-icon icon-passenger  "></i>
+                <span class="text">
+                    4
+                </span>
+            </span>
+                            <span class="amenity bed" data-toggle="tooltip" title="Gear Shift">
+                <i class="input-icon field-icon icon-gear"></i>
+                <span class="text">
+                    Auto
+                </span>
+            </span>
+                            <span class="amenity bath" data-toggle="tooltip" title="Baggage" >
+                <i class="input-icon field-icon icon-baggage"></i>
+                <span class="text">
+                    5
+                </span>
+            </span>
+                            <span class="amenity size" data-toggle="tooltip" title="Door" >
+                <i class="input-icon field-icon icon-door"></i>
+                <span class="text">
+                    4
+                </span>
+            </span>
+            </div>
+    <div class="info">
+        <div class="g-price">
+            <div class="prefix">
+                <span class="fr_text">from</span>
+            </div>
+            <div class="price">
+                <span class="onsale"></span>
+                <span class="text-price">65.423 ¥ <span class="unit">/day</span></span>
+            </div>
+        </div>
+    </div>
+</div>
+                        </div>
+                                            <div class="col-lg-3 col-md-6">
+                            <div class="item-loop item-loop-wrap ">
+            <div class="featured">
+            Featured
+        </div>
+        <div class="thumb-image ">
+        <a  href="../car/vinfast-fadil-standard.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/car/car-12.jpg  alt='Vinfast Fadil Standard'>
+                                    </a>
+        <div class="service-wishlist " data-id="13" data-type="car">
+            <i class="fa fa-heart-o"></i>
+        </div>
+    </div>
+    <div class="item-title">
+        <a  href="../car/vinfast-fadil-standard.html">
+                            <i class="fa fa-bolt d-none"></i>
+                            Vinfast Fadil Standard
+        </a>
+            </div>
+    <div class="location">
+                                Paris
+            </div>
+    <div class="amenities">
+                    <span class="amenity total" data-toggle="tooltip"  title="Passenger">
+                <i class="input-icon field-icon icon-passenger  "></i>
+                <span class="text">
+                    5
+                </span>
+            </span>
+                            <span class="amenity bed" data-toggle="tooltip" title="Gear Shift">
+                <i class="input-icon field-icon icon-gear"></i>
+                <span class="text">
+                    Auto
+                </span>
+            </span>
+                            <span class="amenity bath" data-toggle="tooltip" title="Baggage" >
+                <i class="input-icon field-icon icon-baggage"></i>
+                <span class="text">
+                    8
+                </span>
+            </span>
+                            <span class="amenity size" data-toggle="tooltip" title="Door" >
+                <i class="input-icon field-icon icon-door"></i>
+                <span class="text">
+                    4
+                </span>
+            </span>
+            </div>
+    <div class="info">
+        <div class="g-price">
+            <div class="prefix">
+                <span class="fr_text">from</span>
+            </div>
+            <div class="price">
+                <span class="onsale"></span>
+                <span class="text-price">43.615 ¥ <span class="unit">/day</span></span>
+            </div>
+        </div>
+    </div>
+</div>
+                        </div>
+                                    </div>
+                                </div>
+    </div>
+</div>
+                                            <p class="text-center"><a class="btn btn-primary btn-search" href="../car4335.html?location_id=1">View More</a></p>
+                                        </div>
+                                                                                                                                                                                                                                                                                                                    <div class="tab-pane " id="module-event">
+                                            <div class="container">
+    <div class="bravo-list-event layout_normal">
+                        <div class="list-item">
+                            <div class="row">
+                                            <div class="col-lg-3 col-md-6">
+                            <div class="item-loop item-loop-wrap ">
+        <div class="thumb-image ">
+        <a  href="../event/andante-allegro-event-design.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/event/event-1.jpg  alt='Andante &amp; Allegro Event Design'>
+                                    </a>
+        <div class="service-wishlist " data-id="1" data-type="event">
+            <i class="fa fa-heart-o"></i>
+        </div>
+            </div>
+    <div class="location">
+                                Paris
+            </div>
+    <div class="item-title">
+        <a  href="../event/andante-allegro-event-design.html">
+                            Andante &amp; Allegro Event Design
+        </a>
+    </div>
+                <div class="service-review">
+            <span class="rate">
+                 <span class="rate-text">Not rated</span>
+            </span>
+            <span class="review">
+                                 0 Review
+                            </span>
+        </div>
+                <div class="start-time">
+            Start Time: 20:00
+        </div>
+        <div class="info">
+        <div class="duration">
+            5H
+        </div>
+        <div class="g-price">
+            <div class="prefix">
+                <span class="fr_text">from</span>
+            </div>
+            <div class="price">
+                <span class="onsale"></span>
+                <span class="text-price">218.076 ¥</span>
+            </div>
+        </div>
+    </div>
+</div>
+                        </div>
+                                            <div class="col-lg-3 col-md-6">
+                            <div class="item-loop item-loop-wrap ">
+            <div class="featured">
+            Featured
+        </div>
+        <div class="thumb-image ">
+        <a  href="../event/painted-desert-event-designs.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/event/event-2.jpg  alt='Painted Desert Event Designs'>
+                                    </a>
+        <div class="service-wishlist " data-id="2" data-type="event">
+            <i class="fa fa-heart-o"></i>
+        </div>
+                    <div class="sale_info">26%</div>
+            </div>
+    <div class="location">
+                                Paris
+            </div>
+    <div class="item-title">
+        <a  href="../event/painted-desert-event-designs.html">
+                            Painted Desert Event Designs
+        </a>
+    </div>
+                <div class="service-review">
+            <span class="rate">
+                 4.0/5  <span class="rate-text">Very Good</span>
+            </span>
+            <span class="review">
+                                 4 Reviews
+                            </span>
+        </div>
+                <div class="start-time">
+            Start Time: 19:00
+        </div>
+        <div class="info">
+        <div class="duration">
+            3H
+        </div>
+        <div class="g-price">
+            <div class="prefix">
+                <span class="fr_text">from</span>
+            </div>
+            <div class="price">
+                <span class="onsale">98.134 ¥</span>
+                <span class="text-price">71.965 ¥</span>
+            </div>
+        </div>
+    </div>
+</div>
+                        </div>
+                                            <div class="col-lg-3 col-md-6">
+                            <div class="item-loop item-loop-wrap ">
+            <div class="featured">
+            Featured
+        </div>
+        <div class="thumb-image ">
+        <a  href="../event/bamboo-grove-event-planning.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/event/event-3.jpg  alt='Bamboo Grove Event Planning'>
+                                    </a>
+        <div class="service-wishlist " data-id="3" data-type="event">
+            <i class="fa fa-heart-o"></i>
+        </div>
+                    <div class="sale_info">81%</div>
+            </div>
+    <div class="location">
+                                Paris
+            </div>
+    <div class="item-title">
+        <a  href="../event/bamboo-grove-event-planning.html">
+                            Bamboo Grove Event Planning
+        </a>
+    </div>
+                <div class="service-review">
+            <span class="rate">
+                 5.0/5  <span class="rate-text">Excellent</span>
+            </span>
+            <span class="review">
+                                 2 Reviews
+                            </span>
+        </div>
+                <div class="start-time">
+            Start Time: 19:00
+        </div>
+        <div class="info">
+        <div class="duration">
+            9H
+        </div>
+        <div class="g-price">
+            <div class="prefix">
+                <span class="fr_text">from</span>
+            </div>
+            <div class="price">
+                <span class="onsale">163.557 ¥</span>
+                <span class="text-price">30.422 ¥</span>
+            </div>
+        </div>
+    </div>
+</div>
+                        </div>
+                                    </div>
+                                </div>
+    </div>
+</div>
+                                            <p class="text-center"><a class="btn btn-primary btn-search" href="../event4335.html?location_id=1">View More</a></p>
+                                        </div>
+                                                                                                                                                                                                                                                                                                                    <div class="tab-pane " id="module-tour">
+                                            <div class="bravo-list-tour normal">
+            <div class="container">
+        <div class="list-item">
+                    <div class="row">
+                                    <div class="col-lg-3 col-md-6">
+                        <div class="item-tour item-loop-wrap ">
+        <div class="thumb-image">
+                    <div class="sale_info">87%</div>
+                <a  href="../tour/american-parks-trail.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/tour/tour-1.jpg  alt='American Parks Trail end Rapid City'>
+                                    </a>
+        <div class="service-wishlist " data-id="1" data-type="tour">
+            <i class="fa fa-heart"></i>
+        </div>
+    </div>
+    <div class="location">
+                                <i class="icofont-paper-plane"></i>
+            Paris
+            </div>
+    <div class="item-title">
+        <a  href="../tour/american-parks-trail.html">
+            American Parks Trail end Rapid City
+        </a>
+    </div>
+            <div class="service-review tour-review-4.7">
+        <div class="list-star">
+            <ul class="booking-item-rating-stars">
+                <li><i class="fa fa-star-o"></i></li>
+                <li><i class="fa fa-star-o"></i></li>
+                <li><i class="fa fa-star-o"></i></li>
+                <li><i class="fa fa-star-o"></i></li>
+                <li><i class="fa fa-star-o"></i></li>
+            </ul>
+            <div class="booking-item-rating-stars-active" style="width: 94%">
+                <ul class="booking-item-rating-stars">
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                </ul>
+            </div>
+        </div>
+        <span class="review">
+                            3 Reviews
+                    </span>
+    </div>
+        <div class="info">
+        <div class="duration">
+            <i class="icofont-wall-clock"></i>
+            4H
+        </div>
+        <div class="g-price">
+            <div class="prefix">
+                <i class="icofont-flash"></i>
+                <span class="fr_text">from</span>
+            </div>
+            <div class="price">
+                <span class="onsale">218.076 ¥</span>
+                <span class="text-price">27.478 ¥</span>
+            </div>
+        </div>
+    </div>
+</div>
+                    </div>
+                                    <div class="col-lg-3 col-md-6">
+                        <div class="item-tour item-loop-wrap ">
+            <div class="featured">
+            Featured
+        </div>
+        <div class="thumb-image">
+                    <div class="sale_info">50%</div>
+                <a  href="../tour/new-york-museum-of-modern-art.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/tour/tour-2.jpg  alt='New York: Museum of Modern Art'>
+                                    </a>
+        <div class="service-wishlist " data-id="2" data-type="tour">
+            <i class="fa fa-heart"></i>
+        </div>
+    </div>
+    <div class="location">
+                                <i class="icofont-paper-plane"></i>
+            Paris
+            </div>
+    <div class="item-title">
+        <a  href="../tour/new-york-museum-of-modern-art.html">
+            New York: Museum of Modern Art
+        </a>
+    </div>
+            <div class="service-review tour-review-4.5">
+        <div class="list-star">
+            <ul class="booking-item-rating-stars">
+                <li><i class="fa fa-star-o"></i></li>
+                <li><i class="fa fa-star-o"></i></li>
+                <li><i class="fa fa-star-o"></i></li>
+                <li><i class="fa fa-star-o"></i></li>
+                <li><i class="fa fa-star-o"></i></li>
+            </ul>
+            <div class="booking-item-rating-stars-active" style="width: 90%">
+                <ul class="booking-item-rating-stars">
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                </ul>
+            </div>
+        </div>
+        <span class="review">
+                            2 Reviews
+                    </span>
+    </div>
+        <div class="info">
+        <div class="duration">
+            <i class="icofont-wall-clock"></i>
+            7H
+        </div>
+        <div class="g-price">
+            <div class="prefix">
+                <i class="icofont-flash"></i>
+                <span class="fr_text">from</span>
+            </div>
+            <div class="price">
+                <span class="onsale">98.134 ¥</span>
+                <span class="text-price">48.740 ¥</span>
+            </div>
+        </div>
+    </div>
+</div>
+                    </div>
+                                    <div class="col-lg-3 col-md-6">
+                        <div class="item-tour item-loop-wrap ">
+            <div class="featured">
+            Featured
+        </div>
+        <div class="thumb-image">
+                    <div class="sale_info">48%</div>
+                <a  href="../tour/los-angeles-to-san-francisco-express.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/tour/tour-3.jpg  alt='Los Angeles to San Francisco Express '>
+                                    </a>
+        <div class="service-wishlist " data-id="3" data-type="tour">
+            <i class="fa fa-heart"></i>
+        </div>
+    </div>
+    <div class="location">
+                                <i class="icofont-paper-plane"></i>
+            Paris
+            </div>
+    <div class="item-title">
+        <a  href="../tour/los-angeles-to-san-francisco-express.html">
+            Los Angeles to San Francisco Express 
+        </a>
+    </div>
+            <div class="service-review tour-review-4.3">
+        <div class="list-star">
+            <ul class="booking-item-rating-stars">
+                <li><i class="fa fa-star-o"></i></li>
+                <li><i class="fa fa-star-o"></i></li>
+                <li><i class="fa fa-star-o"></i></li>
+                <li><i class="fa fa-star-o"></i></li>
+                <li><i class="fa fa-star-o"></i></li>
+            </ul>
+            <div class="booking-item-rating-stars-active" style="width: 86%">
+                <ul class="booking-item-rating-stars">
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                </ul>
+            </div>
+        </div>
+        <span class="review">
+                            3 Reviews
+                    </span>
+    </div>
+        <div class="info">
+        <div class="duration">
+            <i class="icofont-wall-clock"></i>
+            1H
+        </div>
+        <div class="g-price">
+            <div class="prefix">
+                <i class="icofont-flash"></i>
+                <span class="fr_text">from</span>
+            </div>
+            <div class="price">
+                <span class="onsale">163.557 ¥</span>
+                <span class="text-price">83.523 ¥</span>
+            </div>
+        </div>
+    </div>
+</div>
+                    </div>
+                                    <div class="col-lg-3 col-md-6">
+                        <div class="item-tour item-loop-wrap ">
+        <div class="thumb-image">
+                    <div class="sale_info">67%</div>
+                <a  href="../tour/cannes-and-antibes-night-tour.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/tour/tour-15.jpg  alt='Cannes and Antibes Night Tour'>
+                                    </a>
+        <div class="service-wishlist " data-id="15" data-type="tour">
+            <i class="fa fa-heart"></i>
+        </div>
+    </div>
+    <div class="location">
+                                <i class="icofont-paper-plane"></i>
+            Paris
+            </div>
+    <div class="item-title">
+        <a  href="../tour/cannes-and-antibes-night-tour.html">
+            Cannes and Antibes Night Tour
+        </a>
+    </div>
+            <div class="service-review tour-review-4.3">
+        <div class="list-star">
+            <ul class="booking-item-rating-stars">
+                <li><i class="fa fa-star-o"></i></li>
+                <li><i class="fa fa-star-o"></i></li>
+                <li><i class="fa fa-star-o"></i></li>
+                <li><i class="fa fa-star-o"></i></li>
+                <li><i class="fa fa-star-o"></i></li>
+            </ul>
+            <div class="booking-item-rating-stars-active" style="width: 86%">
+                <ul class="booking-item-rating-stars">
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                </ul>
+            </div>
+        </div>
+        <span class="review">
+                            3 Reviews
+                    </span>
+    </div>
+        <div class="info">
+        <div class="duration">
+            <i class="icofont-wall-clock"></i>
+            5H
+        </div>
+        <div class="g-price">
+            <div class="prefix">
+                <i class="icofont-flash"></i>
+                <span class="fr_text">from</span>
+            </div>
+            <div class="price">
+                <span class="onsale">228.979 ¥</span>
+                <span class="text-price">74.255 ¥</span>
+            </div>
+        </div>
+    </div>
+</div>
+                    </div>
+                                    <div class="col-lg-3 col-md-6">
+                        <div class="item-tour item-loop-wrap ">
+        <div class="thumb-image">
+                    <div class="sale_info">48%</div>
+                <a  href="../tour/river-cruise-tour-on-the-seine.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/tour/tour-16.jpg  alt='River Cruise Tour on the Seine'>
+                                    </a>
+        <div class="service-wishlist " data-id="16" data-type="tour">
+            <i class="fa fa-heart"></i>
+        </div>
+    </div>
+    <div class="location">
+                                <i class="icofont-paper-plane"></i>
+            Paris
+            </div>
+    <div class="item-title">
+        <a  href="../tour/river-cruise-tour-on-the-seine.html">
+            River Cruise Tour on the Seine
+        </a>
+    </div>
+            <div class="service-review tour-review-4.5">
+        <div class="list-star">
+            <ul class="booking-item-rating-stars">
+                <li><i class="fa fa-star-o"></i></li>
+                <li><i class="fa fa-star-o"></i></li>
+                <li><i class="fa fa-star-o"></i></li>
+                <li><i class="fa fa-star-o"></i></li>
+                <li><i class="fa fa-star-o"></i></li>
+            </ul>
+            <div class="booking-item-rating-stars-active" style="width: 90%">
+                <ul class="booking-item-rating-stars">
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                </ul>
+            </div>
+        </div>
+        <span class="review">
+                            4 Reviews
+                    </span>
+    </div>
+        <div class="info">
+        <div class="duration">
+            <i class="icofont-wall-clock"></i>
+            4H
+        </div>
+        <div class="g-price">
+            <div class="prefix">
+                <i class="icofont-flash"></i>
+                <span class="fr_text">from</span>
+            </div>
+            <div class="price">
+                <span class="onsale">228.979 ¥</span>
+                <span class="text-price">118.415 ¥</span>
+            </div>
+        </div>
+    </div>
+</div>
+                    </div>
+                            </div>
+                            </div>
+</div>        </div>                                            <p class="text-center"><a class="btn btn-primary btn-search" href="../tour4335.html?location_id=1">View More</a></p>
+                                        </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                <div class="tab-pane " id="module-boat">
+                                            <div class="container">
+    <div class="bravo-list-boat layout_normal">
+                        <div class="list-item">
+                            <div class="row">
+                                            <div class="col-lg-3 col-md-6">
+                            <div class="item-loop item-loop-wrap ">
+        <div class="thumb-image ">
+        <a  href="../boat/cruising-yacht.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/boat/boat-1.jpg  alt='Cruising Yacht'>
+                                    </a>
+        <div class="service-wishlist " data-id="1" data-type="boat">
+            <i class="fa fa-heart-o"></i>
+        </div>
+    </div>
+    <div class="location">
+                                Paris
+            </div>
+    <div class="item-title">
+        <a  href="../boat/cruising-yacht.html">
+                            Cruising Yacht
+        </a>
+    </div>
+                                <div class="service-review">
+                <span class="rate">
+                     5.0/5  <span class="rate-text">Excellent</span>
+                </span>
+                <span class="review">
+                                         1 Review
+                                    </span>
+            </div>
+            <div class="amenities">
+                    <span class="amenity total" data-toggle="tooltip"  title="Max Guests">
+                <i class="icofont-ui-user-group input-icon field-icon"></i>
+                <span class="text">
+                    12
+                </span>
+            </span>
+                            <span class="amenity bed" data-toggle="tooltip" title="Cabin">
+                <i class="input-icon field-icon icofont-sail-boat-alt-2"></i>
+                <span class="text">
+                    3
+                </span>
+            </span>
+                            <span class="amenity bath" data-toggle="tooltip" title="Length Boat" >
+                <i class="input-icon field-icon icofont-yacht"></i>
+                <span class="text">
+                    11m
+                </span>
+            </span>
+                            <span class="amenity size" data-toggle="tooltip" title="Speed" >
+                <i class="input-icon field-icon icofont-speed-meter"></i>
+                <span class="text">
+                    25km/h
+                </span>
+            </span>
+            </div>
+    <div class="info">
+        <div class="g-price">
+            <div class="prefix">
+                <span class="fr_text">from</span>
+            </div>
+            <div class="price">
+                <span class="text-price">10.904 ¥</span>
+            </div>
+        </div>
+    </div>
+</div>
+                        </div>
+                                            <div class="col-lg-3 col-md-6">
+                            <div class="item-loop item-loop-wrap ">
+            <div class="featured">
+            Featured
+        </div>
+        <div class="thumb-image ">
+        <a  href="../boat/summer-breeze.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/boat/boat-2.jpg  alt='Summer Breeze'>
+                                    </a>
+        <div class="service-wishlist " data-id="2" data-type="boat">
+            <i class="fa fa-heart-o"></i>
+        </div>
+    </div>
+    <div class="location">
+                                Paris
+            </div>
+    <div class="item-title">
+        <a  href="../boat/summer-breeze.html">
+                            Summer Breeze
+        </a>
+    </div>
+                                <div class="service-review">
+                <span class="rate">
+                     4.8/5  <span class="rate-text">Excellent</span>
+                </span>
+                <span class="review">
+                                         4 Reviews
+                                    </span>
+            </div>
+            <div class="amenities">
+                    <span class="amenity total" data-toggle="tooltip"  title="Max Guests">
+                <i class="icofont-ui-user-group input-icon field-icon"></i>
+                <span class="text">
+                    13
+                </span>
+            </span>
+                            <span class="amenity bed" data-toggle="tooltip" title="Cabin">
+                <i class="input-icon field-icon icofont-sail-boat-alt-2"></i>
+                <span class="text">
+                    1
+                </span>
+            </span>
+                            <span class="amenity bath" data-toggle="tooltip" title="Length Boat" >
+                <i class="input-icon field-icon icofont-yacht"></i>
+                <span class="text">
+                    15m
+                </span>
+            </span>
+                            <span class="amenity size" data-toggle="tooltip" title="Speed" >
+                <i class="input-icon field-icon icofont-speed-meter"></i>
+                <span class="text">
+                    34km/h
+                </span>
+            </span>
+            </div>
+    <div class="info">
+        <div class="g-price">
+            <div class="prefix">
+                <span class="fr_text">from</span>
+            </div>
+            <div class="price">
+                <span class="text-price">16.356 ¥</span>
+            </div>
+        </div>
+    </div>
+</div>
+                        </div>
+                                            <div class="col-lg-3 col-md-6">
+                            <div class="item-loop item-loop-wrap ">
+        <div class="thumb-image ">
+        <a  href="../boat/boat-1992-alison.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/boat/boat-3.jpg  alt='BOAT 1992 ALISON'>
+                                    </a>
+        <div class="service-wishlist " data-id="4" data-type="boat">
+            <i class="fa fa-heart-o"></i>
+        </div>
+    </div>
+    <div class="location">
+                                Paris
+            </div>
+    <div class="item-title">
+        <a  href="../boat/boat-1992-alison.html">
+                            BOAT 1992 ALISON
+        </a>
+    </div>
+                                <div class="service-review">
+                <span class="rate">
+                     4.6/5  <span class="rate-text">Excellent</span>
+                </span>
+                <span class="review">
+                                         5 Reviews
+                                    </span>
+            </div>
+            <div class="amenities">
+                    <span class="amenity total" data-toggle="tooltip"  title="Max Guests">
+                <i class="icofont-ui-user-group input-icon field-icon"></i>
+                <span class="text">
+                    15
+                </span>
+            </span>
+                            <span class="amenity bed" data-toggle="tooltip" title="Cabin">
+                <i class="input-icon field-icon icofont-sail-boat-alt-2"></i>
+                <span class="text">
+                    2
+                </span>
+            </span>
+                            <span class="amenity bath" data-toggle="tooltip" title="Length Boat" >
+                <i class="input-icon field-icon icofont-yacht"></i>
+                <span class="text">
+                    10m
+                </span>
+            </span>
+                            <span class="amenity size" data-toggle="tooltip" title="Speed" >
+                <i class="input-icon field-icon icofont-speed-meter"></i>
+                <span class="text">
+                    30km/h
+                </span>
+            </span>
+            </div>
+    <div class="info">
+        <div class="g-price">
+            <div class="prefix">
+                <span class="fr_text">from</span>
+            </div>
+            <div class="price">
+                <span class="text-price">5.452 ¥</span>
+            </div>
+        </div>
+    </div>
+</div>
+                        </div>
+                                            <div class="col-lg-3 col-md-6">
+                            <div class="item-loop item-loop-wrap ">
+            <div class="featured">
+            Featured
+        </div>
+        <div class="thumb-image ">
+        <a  href="../boat/blue-dream-tc-20.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/boat/boat-5.jpg  alt='Blue Dream TC-20'>
+                                    </a>
+        <div class="service-wishlist " data-id="6" data-type="boat">
+            <i class="fa fa-heart-o"></i>
+        </div>
+    </div>
+    <div class="location">
+                                Paris
+            </div>
+    <div class="item-title">
+        <a  href="../boat/blue-dream-tc-20.html">
+                            Blue Dream TC-20
+        </a>
+    </div>
+                                <div class="service-review">
+                <span class="rate">
+                     4.8/5  <span class="rate-text">Excellent</span>
+                </span>
+                <span class="review">
+                                         5 Reviews
+                                    </span>
+            </div>
+            <div class="amenities">
+                    <span class="amenity total" data-toggle="tooltip"  title="Max Guests">
+                <i class="icofont-ui-user-group input-icon field-icon"></i>
+                <span class="text">
+                    6
+                </span>
+            </span>
+                            <span class="amenity bed" data-toggle="tooltip" title="Cabin">
+                <i class="input-icon field-icon icofont-sail-boat-alt-2"></i>
+                <span class="text">
+                    2
+                </span>
+            </span>
+                            <span class="amenity bath" data-toggle="tooltip" title="Length Boat" >
+                <i class="input-icon field-icon icofont-yacht"></i>
+                <span class="text">
+                    19m
+                </span>
+            </span>
+                            <span class="amenity size" data-toggle="tooltip" title="Speed" >
+                <i class="input-icon field-icon icofont-speed-meter"></i>
+                <span class="text">
+                    25km/h
+                </span>
+            </span>
+            </div>
+    <div class="info">
+        <div class="g-price">
+            <div class="prefix">
+                <span class="fr_text">from</span>
+            </div>
+            <div class="price">
+                <span class="text-price">14.175 ¥</span>
+            </div>
+        </div>
+    </div>
+</div>
+                        </div>
+                                            <div class="col-lg-3 col-md-6">
+                            <div class="item-loop item-loop-wrap ">
+        <div class="thumb-image ">
+        <a  href="../boat/blue-moon-yc-300.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/boat/boat-6.jpg  alt='Blue Moon YC-300'>
+                                    </a>
+        <div class="service-wishlist " data-id="7" data-type="boat">
+            <i class="fa fa-heart-o"></i>
+        </div>
+    </div>
+    <div class="location">
+                                Paris
+            </div>
+    <div class="item-title">
+        <a  href="../boat/blue-moon-yc-300.html">
+                            Blue Moon YC-300
+        </a>
+    </div>
+                                <div class="service-review">
+                <span class="rate">
+                     5.0/5  <span class="rate-text">Excellent</span>
+                </span>
+                <span class="review">
+                                         2 Reviews
+                                    </span>
+            </div>
+            <div class="amenities">
+                    <span class="amenity total" data-toggle="tooltip"  title="Max Guests">
+                <i class="icofont-ui-user-group input-icon field-icon"></i>
+                <span class="text">
+                    7
+                </span>
+            </span>
+                            <span class="amenity bed" data-toggle="tooltip" title="Cabin">
+                <i class="input-icon field-icon icofont-sail-boat-alt-2"></i>
+                <span class="text">
+                    5
+                </span>
+            </span>
+                            <span class="amenity bath" data-toggle="tooltip" title="Length Boat" >
+                <i class="input-icon field-icon icofont-yacht"></i>
+                <span class="text">
+                    11m
+                </span>
+            </span>
+                            <span class="amenity size" data-toggle="tooltip" title="Speed" >
+                <i class="input-icon field-icon icofont-speed-meter"></i>
+                <span class="text">
+                    29km/h
+                </span>
+            </span>
+            </div>
+    <div class="info">
+        <div class="g-price">
+            <div class="prefix">
+                <span class="fr_text">from</span>
+            </div>
+            <div class="price">
+                <span class="text-price">14.175 ¥</span>
+            </div>
+        </div>
+    </div>
+</div>
+                        </div>
+                                            <div class="col-lg-3 col-md-6">
+                            <div class="item-loop item-loop-wrap ">
+        <div class="thumb-image ">
+        <a  href="../boat/carpe-diem-la.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/boat/boat-7.jpg  alt='Carpe Diem LA'>
+                                    </a>
+        <div class="service-wishlist " data-id="8" data-type="boat">
+            <i class="fa fa-heart-o"></i>
+        </div>
+    </div>
+    <div class="location">
+                                Paris
+            </div>
+    <div class="item-title">
+        <a  href="../boat/carpe-diem-la.html">
+                            Carpe Diem LA
+        </a>
+    </div>
+                                <div class="service-review">
+                <span class="rate">
+                     4.7/5  <span class="rate-text">Excellent</span>
+                </span>
+                <span class="review">
+                                         3 Reviews
+                                    </span>
+            </div>
+            <div class="amenities">
+                    <span class="amenity total" data-toggle="tooltip"  title="Max Guests">
+                <i class="icofont-ui-user-group input-icon field-icon"></i>
+                <span class="text">
+                    10
+                </span>
+            </span>
+                            <span class="amenity bed" data-toggle="tooltip" title="Cabin">
+                <i class="input-icon field-icon icofont-sail-boat-alt-2"></i>
+                <span class="text">
+                    2
+                </span>
+            </span>
+                            <span class="amenity bath" data-toggle="tooltip" title="Length Boat" >
+                <i class="input-icon field-icon icofont-yacht"></i>
+                <span class="text">
+                    20m
+                </span>
+            </span>
+                            <span class="amenity size" data-toggle="tooltip" title="Speed" >
+                <i class="input-icon field-icon icofont-speed-meter"></i>
+                <span class="text">
+                    30km/h
+                </span>
+            </span>
+            </div>
+    <div class="info">
+        <div class="g-price">
+            <div class="prefix">
+                <span class="fr_text">from</span>
+            </div>
+            <div class="price">
+                <span class="text-price">21.808 ¥</span>
+            </div>
+        </div>
+    </div>
+</div>
+                        </div>
+                                            <div class="col-lg-3 col-md-6">
+                            <div class="item-loop item-loop-wrap ">
+            <div class="featured">
+            Featured
+        </div>
+        <div class="thumb-image ">
+        <a  href="../boat/my-way-100.html">
+                                                <img class='img-responsive lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/boat/boat-12.jpg  alt='My Way 100'>
+                                    </a>
+        <div class="service-wishlist " data-id="13" data-type="boat">
+            <i class="fa fa-heart-o"></i>
+        </div>
+    </div>
+    <div class="location">
+                                Paris
+            </div>
+    <div class="item-title">
+        <a  href="../boat/my-way-100.html">
+                            My Way 100
+        </a>
+    </div>
+                                <div class="service-review">
+                <span class="rate">
+                     4.0/5  <span class="rate-text">Very Good</span>
+                </span>
+                <span class="review">
+                                         3 Reviews
+                                    </span>
+            </div>
+            <div class="amenities">
+                    <span class="amenity total" data-toggle="tooltip"  title="Max Guests">
+                <i class="icofont-ui-user-group input-icon field-icon"></i>
+                <span class="text">
+                    12
+                </span>
+            </span>
+                            <span class="amenity bed" data-toggle="tooltip" title="Cabin">
+                <i class="input-icon field-icon icofont-sail-boat-alt-2"></i>
+                <span class="text">
+                    2
+                </span>
+            </span>
+                            <span class="amenity bath" data-toggle="tooltip" title="Length Boat" >
+                <i class="input-icon field-icon icofont-yacht"></i>
+                <span class="text">
+                    14m
+                </span>
+            </span>
+                            <span class="amenity size" data-toggle="tooltip" title="Speed" >
+                <i class="input-icon field-icon icofont-speed-meter"></i>
+                <span class="text">
+                    35km/h
+                </span>
+            </span>
+            </div>
+    <div class="info">
+        <div class="g-price">
+            <div class="prefix">
+                <span class="fr_text">from</span>
+            </div>
+            <div class="price">
+                <span class="text-price">16.356 ¥</span>
+            </div>
+        </div>
+    </div>
+</div>
+                        </div>
+                                    </div>
+                                </div>
+    </div>
+</div>
+                                            <p class="text-center"><a class="btn btn-primary btn-search" href="../boat4335.html?location_id=1">View More</a></p>
+                                        </div>
+                                                                                                                                                                </div>
+                    </div>
+
+                                <div class="row">
+                    <div class="col-12">
+                        <h3 class="py-5">The City Maps</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="g-location">
+        <div class="location-map">
+            <div id="map_content"></div>
+        </div>
+    </div>
+            <div class="container">
+                <div class="g-trip-ideas">
+        <h3 class="py-5">Trip Ideas</h3>
+                                                <div class="trip-idea mb-5">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-8 pr-lg-5 pb-5">
+                            <p class="trip-idea-category">FEATURED ARTICLE</p>
+                            <h2 class="pb-3">Experiencing the best jazz in Harlem, birthplace of bebop</h2>
+                            <div class="description pb-3"><p>New Orleans might be the home of jazz, but New York City is where many of the genre’s greats became stars – and Harlem was at the heart of it.The neighborhood experienced a rebirth during the...</p></div>
+                                                            <p><a href="#" target="_blank" class="read-more">Read More</a></p>
+                                                        </div>
+                        <div class="col-md-12 col-lg-4 pb-5">
+                                                            <img class='img-fluid lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/location/trip-idea/trip-idea-1.jpg  alt=''>
+                                                    </div>
+
+                    </div>
+                </div>
+                            <div class="trip-idea mb-5">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-8 pr-lg-5 pb-5">
+                            <p class="trip-idea-category">FEATURED ARTICLE</p>
+                            <h2 class="pb-3">Reflections from the road: transformative ‘Big Trip’ experiences</h2>
+                            <div class="description pb-3"><p>Whether it’s a gap year after finishing school, a well-earned sabbatical from work or an overseas adventure in celebration of your retirement, a big trip is a rite of passage for every traveller, with myriad life lessons to be ...</p></div>
+                                                            <p><a href="#" target="_blank" class="read-more">Read More</a></p>
+                                                        </div>
+                        <div class="col-md-12 col-lg-4 pb-5">
+                                                            <img class='img-fluid lazy'  data-src=https://sandbox.bookingcore.co/uploads/demo/location/trip-idea/trip-idea-2.jpg  alt=''>
+                                                    </div>
+
+                    </div>
+                </div>
+                    
+    </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="bravo_footer">
+		<div class="mailchimp">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-lg-10 col-lg-offset-1">
+						<div class="row">
+							<div class="col-xs-12  col-md-7 col-lg-6">
+								<div class="media ">
+									<div class="media-left hidden-xs">
+										<i class="icofont-island-alt"></i>
+									</div>
+									<div class="media-body">
+										<h4 class="media-heading">Get Updates &amp; More</h4>
+										<p>Thoughtful thoughts to your inbox</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-md-5 col-lg-6">
+								<form action="https://sandbox.bookingcore.co/newsletter/subscribe" class="subcribe-form bravo-subscribe-form bravo-form">
+									<input type="hidden" name="_token" value="W54J0KMOQPX6D0a8URMkHYCmBXQgHewn2jGw2b7d" autocomplete="off">									<div class="form-group">
+										<input type="text" name="email" class="form-control email-input" placeholder="Your Email">
+										<button type="submit" class="btn-submit">Subscribe
+											<i class="fa fa-spinner fa-pulse fa-fw"></i>
+										</button>
+									</div>
+									<div class="form-mess"></div>
+								</form>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main-footer">
+			<div class="container">
+				<div class="row">
+					                        													<div class="col-lg-3 col-md-6">
+								<div class="nav-footer">
+									<div class="title">
+										NEED HELP?
+									</div>
+									<div class="context">
+										<div class="contact">
+        <div class="c-title">
+            Call Us
+        </div>
+        <div class="sub">
+            + 00 222 44 5678
+        </div>
+    </div>
+    <div class="contact">
+        <div class="c-title">
+            Email for Us
+        </div>
+        <div class="sub">
+            <a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="d8b0bdb4b4b798a1b7adaaabb1acbdf6bbb7b5">[email&#160;protected]</a>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="c-title">
+            Follow Us
+        </div>
+        <div class="sub">
+            <a href="#">
+                <i class="icofont-facebook"></i>
+            </a>
+            <a href="#">
+               <i class="icofont-twitter"></i>
+            </a>
+            <a href="#">
+                <i class="icofont-youtube-play"></i>
+            </a>
+        </div>
+    </div>
+									</div>
+								</div>
+							</div>
+													<div class="col-lg-3 col-md-6">
+								<div class="nav-footer">
+									<div class="title">
+										COMPANY
+									</div>
+									<div class="context">
+										<ul>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Community Blog</a></li>
+    <li><a href="#">Rewards</a></li>
+    <li><a href="#">Work with Us</a></li>
+    <li><a href="#">Meet the Team</a></li>
+</ul>
+									</div>
+								</div>
+							</div>
+													<div class="col-lg-3 col-md-6">
+								<div class="nav-footer">
+									<div class="title">
+										SUPPORT
+									</div>
+									<div class="context">
+										<ul>
+    <li><a href="#">Account</a></li>
+    <li><a href="#">Legal</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">Affiliate Program</a></li>
+    <li><a href="#">Privacy Policy</a></li>
+</ul>
+									</div>
+								</div>
+							</div>
+													<div class="col-lg-3 col-md-6">
+								<div class="nav-footer">
+									<div class="title">
+										SETTINGS
+									</div>
+									<div class="context">
+										<ul>
+<li><a href="#">Setting 1</a></li>
+<li><a href="#">Setting 2</a></li>
+</ul>
+									</div>
+								</div>
+							</div>
+															</div>
+			</div>
+		</div>
+		<div class="copy-right">
+			<div class="container context">
+				<div class="row">
+					<div class="col-md-12">
+						Copyright © 2019 by Booking Core
+						<div class="f-visa">
+							Booking Core
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<div class="modal fade login" id="login" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content relative">
+            <div class="modal-header">
+                <h4 class="modal-title">Log In</h4>
+                <span class="c-pointer" data-dismiss="modal" aria-label="Close">
+                    <i class="input-icon field-icon fa">
+                        <img src="../images/ico_close.svg" alt="close">
+                    </i>
+                </span>
+            </div>
+            <div class="modal-body relative">
+                <form class="bravo-form-login" method="POST" action="https://sandbox.bookingcore.co/login">
+    <input type="hidden" name="redirect" value="">
+    <input type="hidden" name="_token" value="W54J0KMOQPX6D0a8URMkHYCmBXQgHewn2jGw2b7d" autocomplete="off">    <div class="form-group">
+        <input type="text" class="form-control" name="email" autocomplete="off" placeholder="Email address">
+        <i class="input-icon icofont-mail"></i>
+        <span class="invalid-feedback error error-email"></span>
+    </div>
+    <div class="form-group">
+        <input type="password" class="form-control" name="password" autocomplete="off"  placeholder="Password">
+        <i class="input-icon icofont-ui-password"></i>
+        <span class="invalid-feedback error error-password"></span>
+    </div>
+    <div class="form-group">
+        <div class="d-flex justify-content-between">
+            <label for="remember-me" class="mb0">
+                <input type="checkbox" name="remember" id="remember-me" value="1"> Remember me <span class="checkmark fcheckbox"></span>
+            </label>
+            <a href="../forgot-password.html">Forgot Password?</a>
+        </div>
+    </div>
+        <div class="error message-error invalid-feedback"></div>
+    <div class="form-group">
+        <button class="btn btn-primary form-submit" type="submit">
+            Login
+            <span class="spinner-grow spinner-grow-sm icon-loading" role="status" aria-hidden="true"></span>
+        </button>
+    </div>
+                <div class="c-grey font-medium f14 text-center"> Do not have an account? <a href="#" data-target="#register" data-toggle="modal">Sign Up</a></div>
+    </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade login" id="register" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content relative">
+            <div class="modal-header">
+                <h4 class="modal-title">Sign Up</h4>
+                <span class="c-pointer" data-dismiss="modal" aria-label="Close">
+                    <i class="input-icon field-icon fa">
+                        <img src="../images/ico_close.svg" alt="close">
+                    </i>
+                </span>
+            </div>
+            <div class="modal-body">
+                <form class="form bravo-form-register" method="post" action="https://sandbox.bookingcore.co/register">
+    <input type="hidden" name="_token" value="W54J0KMOQPX6D0a8URMkHYCmBXQgHewn2jGw2b7d" autocomplete="off">    <div class="row">
+        <div class="col-lg-6 col-md-12">
+            <div class="form-group">
+                <input type="text" class="form-control" name="first_name" autocomplete="off" placeholder="First Name">
+                <i class="input-icon field-icon icofont-waiter-alt"></i>
+                <span class="invalid-feedback error error-first_name"></span>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+            <div class="form-group">
+                <input type="text" class="form-control" name="last_name" autocomplete="off" placeholder="Last Name">
+                <i class="input-icon field-icon icofont-waiter-alt"></i>
+                <span class="invalid-feedback error error-last_name"></span>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control" name="phone" autocomplete="off" placeholder="Phone">
+        <i class="input-icon field-icon icofont-ui-touch-phone"></i>
+        <span class="invalid-feedback error error-phone"></span>
+    </div>
+    <div class="form-group">
+        <input type="email" class="form-control" name="email" autocomplete="off" placeholder="Email address">
+        <i class="input-icon field-icon icofont-mail"></i>
+        <span class="invalid-feedback error error-email"></span>
+    </div>
+    <div class="form-group">
+        <input type="password" class="form-control" name="password" autocomplete="off" placeholder="Password">
+        <i class="input-icon field-icon icofont-ui-password"></i>
+        <span class="invalid-feedback error error-password"></span>
+    </div>
+    <div class="form-group">
+        <label for="term">
+            <input id="term" type="checkbox" name="term" class="mr5">
+            I have read and accept the <a href='#' target='_blank'>Terms and Privacy Policy</a>
+            <span class="checkmark fcheckbox"></span>
+        </label>
+        <div><span class="invalid-feedback error error-term"></span></div>
+    </div>
+        <div class="error message-error invalid-feedback"></div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary form-submit">
+            Sign Up
+            <span class="spinner-grow spinner-grow-sm icon-loading" role="status" aria-hidden="true"></span>
+        </button>
+    </div>
+        <div class="c-grey f14 text-center">
+        Already have an account?
+        <a href="#" data-target="#login" data-toggle="modal">Log In</a>
+    </div>
+</form>
+            </div>
+        </div>
+    </div>
+</div><link rel="stylesheet" href="../libs/flags/css/flag-icon.min.css">
+
+
+
+
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="../libs/lazy-load/intersection-observer.js"></script>
+<script async src="../libs/lazy-load/lazyload.min.js"></script>
+<script>
+    // Set the options to make LazyLoad self-initialize
+    window.lazyLoadOptions = {
+        elements_selector: ".lazy",
+        // ... more custom settings?
+    };
+
+    // Listen to the initialization event and get the instance of LazyLoad
+    window.addEventListener('LazyLoad::Initialized', function (event) {
+        window.lazyLoadInstance = event.detail.instance;
+    }, false);
+
+
+</script>
+<script src="../libs/lodash.min.js"></script>
+<script src="../libs/jquery-3.6.3.min.js"></script>
+<script src="../libs/vue/vue.min.js"></script>
+<script src="../libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../libs/bootbox/bootbox.min.js"></script>
+<script src="../libs/carousel-2/owl.carousel.min.js"></script>
+<script type="text/javascript" src="../libs/daterange/moment.min.js"></script>
+<script type="text/javascript" src="../libs/daterange/daterangepicker.min.js"></script>
+<script src="../libs/select2/js/select2.min.js"></script>
+<script src="../js/functions96fd.js?_ver=3.4.0"></script>
+
+<script src="../libs/pusher.min.js"></script>
+<script src="../js/home96fd.js?_ver=3.4.0"></script>
+
+
+
+
+
+
+
+    <script src='https://maps.googleapis.com/maps/api/js?key=&amp;libraries=places'></script><script src='../../unpkg.com/%40googlemaps/markerclusterer%402.5.3/dist/index.min.js'></script><script src='../libs/infobox.js'></script><script src='../module/core/js/map-engine12fd.js?_ver=3.4.2'></script>
+    <script>
+        jQuery(function ($) {
+                        new BravoMapEngine('map_content', {
+                disableScripts: true,
+                fitBounds: true,
+                center: [48.856613, 2.352222],
+                zoom:12,
+                ready: function (engineMap) {
+                    engineMap.addMarker([48.856613, 2.352222], {
+                        icon_options: {}
+                    });
+                }
+            });
+                    })
+    </script>
+
+    <script type="text/javascript" src="../libs/ion_rangeslider/js/ion.rangeSlider.min.js"></script>
+    <script type="text/javascript" src="../libs/fotorama/fotorama.js"></script>
+    <script type="text/javascript" src="../libs/sticky/jquery.sticky.js"></script>
+    </div>
+        <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-W7B5HJJ');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7B5HJJ"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            xfbml            : true,
+            version          : 'v3.3'
+        });
+    };
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = '../../connect.facebook.net/en_US/sdk/xfbml.customerchat.html';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+<!-- Load Facebook SDK for JavaScript -->
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+     attribution=setup_tool
+     page_id="2280007165584589">
+</div>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115740936-4"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-115740936-4');
+</script>
+<style>
+    .bravo-buy-button{
+        text-align: center;
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        background-color: #0072bc;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 12px;
+        padding: 10px 20px 8px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        font-weight: 600;
+        z-index: 99;
+    }
+    .bravo-buy-button:hover{
+        text-decoration: none;
+        color: #fff;
+    }
+    .bravo-buy-button .tf-text{
+        background-image: url('../landing/img/logoen.png');
+        width: 66px;
+        height: 12px;
+        display: inline-block;
+        background-repeat: no-repeat;
+
+    }
+</style>
+<a class="sticky-button bravo-buy-button" target="_blank" href="https://codecanyon.net/item/booking-core-ultimate-booking-system/24043972">
+    <span>Buy on <span class="tf-text"></span></span>
+</a>
+</body>
+
+<!-- Mirrored from sandbox.bookingcore.co/location/paris by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 13 Jan 2025 21:21:56 GMT -->
+</html>
